@@ -1,0 +1,137 @@
+/* Zooms */
+  /* Zoom Out Styles */
+  div.zoom-out {
+    overflow: hidden;
+  }
+  img.zoom-out {
+    transition: 500ms;
+    transform: scale(1.1);
+  }
+  img.zoom-out:hover {
+      transform: scale(1);
+  }
+
+  /* Zoom In Styles */
+  div.zoom-in {
+    overflow: hidden;
+  }
+  img.zoom-in {
+    transition: 500ms;
+    transform: scale(1);
+  }
+  img.zoom-in:hover {
+      transform: scale(1.1);
+  }
+
+
+/* Shifts */
+    /* Shift Left Styles  */
+    div.shift-left {
+      overflow: hidden;
+    }
+    img.shift-left {
+      transition: 500ms;
+      transform: scale(1.1) translateX(2%);
+    }
+    img.shift-left:hover {
+        transform: scale(1.1) translateX(-2%);
+    }
+
+    /* Shift right Styles  */
+    div.shift-right {
+      overflow: hidden;
+    }
+    img.shift-right {
+      transition: 500ms;
+      transform: scale(1.1) translateX(-2%);
+    }
+    img.shift-right:hover {
+        transform: scale(1.1) translateX(2%);
+    }
+
+
+    /* Shift Up Styles  */
+    div.shift-up {
+      overflow: hidden;
+    }
+    img.shift-up {
+      transition: 500ms;
+      transform: scale(1.1) translateY(2%);
+    }
+    img.shift-up:hover {
+      transform: scale(1.1) translateY(-2%);
+    }
+
+    /* Shift Down Styles  */
+    div.shift-down {
+      overflow: hidden;
+    }
+    img.shift-down {
+      transition: 500ms;
+      transform: scale(1.1) translateY(-2%);
+    }
+    img.shift-down:hover {
+      transform: scale(1.1) translateY(2%);
+    }
+
+    /* Shift Up Right Styles  */
+    div.shift-up-right {
+      overflow: hidden;
+    }
+    img.shift-up-right {
+      transition: 500ms;
+      transform: scale(1.1) translateY(2%) translateX(-2%);
+    }
+    img.shift-up-right:hover {
+      transform: scale(1.1) translateX(2%) translateY(-2%);
+    }
+
+/* Filters */
+
+    /* Blur Styles */
+    div.blur{
+      overflow: hidden;
+    }
+    img.blur {
+      transition: 500ms;
+      filter:blur(0px);
+    }
+    img.blur:hover {
+      filter:blur(5px);
+    }
+
+    /* Grayscale Styles */
+    img.grayscale {
+      transition: 500ms;
+      filter:grayscale(0%);
+    }
+    img.grayscale:hover {
+      filter:grayscale(100%);
+    }
+
+    /* Color Styles */
+    img.color {
+      transition: 500ms;
+      filter:grayscale(100%);
+    }
+    img.color:hover {
+      filter:grayscale(0%);
+    }
+
+    /* Sepia Styles */
+    img.sepia {
+      transition: 500ms;
+      filter:sepia(0);
+    }
+    img.sepia:hover {
+      filter:sepia(1);
+    }
+
+    /* Invert Styles */
+    img.invert {
+      transition: 500ms;
+      filter:invert(0);
+    }
+    img.invert:hover {
+      filter:invert(1);
+    }
