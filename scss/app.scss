@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+// Added Custom Font
+@import url("https://use.typekit.net/dcv6iqf.css");
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -64,6 +67,9 @@
 @include motion-ui-animations;
 
 // Components
+@import "components/global";
 @import "components/header";
-
+@import "components/footer";
+@import "components/home/home-hero";
+@import "components/home/styles";
 @import "components/hover-effects";
