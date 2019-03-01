@@ -1,0 +1,56 @@
+// Both dropdowns
+.dropdown-content-container
+  position: relative
+  .absolute
+    position: absolute
+    width: 100%
+    top: 0
+  .hide-container
+    opacity: 0
+    height: 0px
+    z-index: -1
+    top: -200px
+    transition: $transition-timing
+
+.dropdown-content-container
+  transition: $transition-timing
+  height: 0
+  div
+    transition: $transition-timing
+
+  .dropdown-content
+    position: relative
+    .close
+      cursor: pointer
+      position: absolute
+      top: 1em
+      right: 0
+      width: 2em
+      transition: $transition-timing
+      &:hover
+        opacity: $hover-opacity
+    .black-triangle
+      position: absolute
+      left: calc(25% - 25px)
+      width: 50px
+      top: 0
+.dropdown-selector
+  img
+    user-select: none
+  p
+    user-select: none
+
+// metalProducts
+.metalProducts
+  .left-half
+    border-right: 1px solid black
+    width: calc(50% - 10px)
+  .right-half
+    padding-left: calc(3em + 10px)
+
+// metalServices
+.dropdown-content-container
+  .metalServices
+    .black-triangle
+      right: calc(25% - 25px)
+      left: unset

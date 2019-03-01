@@ -1,12 +1,32 @@
+// Global Variables
+$transition-timing: 500ms
+$hover-opacity: .5
+
 // Additional classes
 .hidden
   display: none
-.textured-header
+.more-about-link
+  font-style: italic
+  text-decoration: underline
+
+.primary-background
   color: $white
-  background: url('../images/textured_header.jpg')
+  background: #455560
   padding: 2rem 0
+
+.row
+  padding-top: 4em !important
+  padding-bottom: 4em !important
+
+// Tweaking Defults
+.hollow
+  color: $white !important
+  border-color: $white !important
+.button
+  text-transform: uppercase !important
+
 // Global Interactions
 a
-  transition: 500ms
+  transition: $transition-timing
 a:hover
-  opacity: .75
+  opacity: $hover-opacity
