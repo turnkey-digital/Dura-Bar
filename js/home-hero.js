@@ -1,3 +1,6 @@
+// This File is just for development. 
+// The code for this is inside app.js starting on line 2
+
 $('window').ready(function(){
   // Get information and pass it to the callFunctions function
   $('.dropdown-selector').click(function(){
