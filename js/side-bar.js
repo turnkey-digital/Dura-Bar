@@ -23,18 +23,25 @@ function closeOtherMenus(thisMenu) {
 }
 function checkThisMenu(menuNumber) {
     var thisMenu = '.menu-' + menuNumber;
+    var menuToggle = $(thisMenu).parent('div').siblings('.titleSelector').find('.side-bar-x');
+
     if ($(thisMenu).hasClass("active")) {
         $(thisMenu).removeClass('active');
+        $(menuToggle).removeClass('opened'); 
         $(thisMenu).parent('div').css('height', 0)
     }  else {
         $(thisMenu).addClass('active');
+        $(menuToggle).addClass('opened');        
         updateActiveHeight();
     }
 }
 function closeThisMenu(props) {
-    var thisMenu = '.menu-'+props
+    var thisMenu = '.menu-'+props;
+    var menuToggle = $(thisMenu).parent('div').siblings('.titleSelector').find('.side-bar-x');
     $(thisMenu).removeClass('active')
+    $(menuToggle).removeClass('opened'); 
     $(thisMenu).parent('div').css('height', 0)
+    
 }
 function updateActiveHeight() {
     $('.active').parent('div').css('height', $('.active').height())
