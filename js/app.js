@@ -25,6 +25,7 @@ $('window').ready(function () {
         updateParentHeight(second);
     }
     function closeOther(first) {
+        // alert(first)
         (($(first).attr('data-selection') === 'true') ? addClassHiding(first) : null)
     }
     function toggleCurrent(second) {
@@ -51,6 +52,26 @@ $('window').ready(function () {
         }
     }
 });
+
+// Home Hero Interaction Effects
+$('.left-image-hover').mouseenter(function () {
+    $('#left-img').addClass('zoom')
+    $('#right-img').addClass('inactive')
+})
+$('.left-image-hover').mouseleave(function () {
+    $('#left-img').removeClass('zoom')
+    $('#right-img').removeClass('inactive')
+})
+
+$('.right-image-hover').mouseenter(function () {
+    $('#right-img').addClass('zoom')
+    $('#left-img').addClass('inactive')
+})
+$('.right-image-hover').mouseleave(function () {
+    $('#right-img').removeClass('zoom')
+    $('#left-img').removeClass('inactive')
+})
+
 
 // Side Bar JS
 updateActiveHeight();

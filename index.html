@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Dura-Bar | Metal Services</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favi.png" />
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
@@ -22,11 +23,13 @@
           <div class="grid-y">
             <!-- top section -->
             <div class="cell small-3">
-                <ul class="menu align-right simple">
-                  <li><a href="#">Request a Quote</a></li>
-                  <li><a href="#">Contact Info</a></li>
-                  <li><a href="tel:+1-888-387-2227">888.387.2227</a></li>
-                </ul>
+              <ul class="menu align-right simple">
+                <li><a href="#">Request a Quote</a></li>
+                <li><span>|</span></li>
+                <li><a href="#">Contact Info</a></li>
+                <li><span>|</span></li>
+                <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+              </ul>
             </div>
             <!-- middle section -->
             <div class="cell small-3 grid-padding-y">
@@ -40,11 +43,11 @@
             <!-- bottom section -->
             <div class="cell small-6">
               <ul class="menu align-right simple main-nav">
-                <li><a href="../products.html">PRODUCTS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">LOCATION</a></li>
-                <li><a href="#">INDUSTRIES</a></li>
-                <li><a href="#">RESOURCES</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="industries.html">INDUSTRIES</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
               </ul>
             </div>
           </div>
@@ -60,57 +63,55 @@
       <!-- Container for backgroung images -->
       <div class="cell small-12 background grid-x">
         <!-- Left Background -->
-        <div class="small-12 medium-6 left-img">
+        <div class="small-12 medium-6 left-img left-image-hover" id="left-img">
+            <img class="zoom-in" src="../images/home/metalProducts.jpg" alt="Dura-Bar Metal Services Logo">
           <div class="gradient"></div>
-          <img src="../images/metalProducts.jpg" alt="Dura-Bar Metal Services Logo">
         </div>
         <!-- Right Background -->
-        <div class="small-12 medium-6 right-img">
+        <div class="small-12 medium-6 right-img right-image-hover" id="right-img">
+            <img class="zoom-in" src="../images/home/metalServices.jpg" alt="Dura-Bar Metal Services Logo">
           <div class="gradient"></div>
-          <img src="../images/metalServices.jpg" alt="Dura-Bar Metal Services Logo">
         </div>
       </div>
       <!-- Container for Content - mounted ontop of images -->
       <div class="cell small-12 content grid-container grid-x grid-padding-x ">
         <!-- Content Left -->
-        <div class="cell small-12 medium-6 grid-x">
+        <div class="cell small-12 medium-6 grid-x left-image-hover">
           <!-- Header -->
-          <div class="cell small-12">
+          <div class="cell small-12 left-image-hover">
             <h1>Metal Products</h1>
             <p><i>Continuous cast iron and alloys used in a variety of industries— <br>
               ﬂuid power, oil and gas, machine tools and more!</i></p>
           </div>
           <!-- Selector and button -->
-          <div class="cell small-4 dropdown-selector" id="MP">
-            <div class="triangle">
-              <img src="../images/triangle.png" alt="">
+          <div class="cell small-5 dropdown-selector left-image-hover" id="MP">
+            <div  class="button hollow">
+              <div class="triangle">
+                <img src="../images/global/triangle.png" alt="">
+              </div>
+              <p>Quick Product Selector</p>
             </div>
-            <p>Quick Product Selector</p>
           </div>
-          <div class="cell auto"></div>
-          <div class="cell small-7">
-            <a href="about.html" class="button hollow">Learn More</a>
-          </div>
+          <div class="cell auto left-image-hover"></div>
         </div>
         <!-- Content Right -->
-        <div class="cell small-12 medium-6 grid-x" style="padding-left: 3em;">
+        <div class="cell small-12 medium-6 grid-x right-image-hover" style="padding-left: 3em;">
           <!-- Header -->
-          <div class="cell small-12">
+          <div class="cell small-12 right-image-hover">
             <h1>Metal Services</h1>
             <p><i>The right material at the right time—helping our customers<br>
               save time and money.</i></p>
           </div>
           <!-- Selector and button -->
-          <div class="cell small-4 dropdown-selector" id="MS">
-            <div class="triangle">
-              <img src="../images/triangle.png" alt="">
+          <div class="cell small-5 dropdown-selector right-image-hover" id="MS">
+            <div class="button hollow">
+              <div class="triangle">
+                <img src="../images/global/triangle.png" alt="">
+              </div>
+              <p>Quick Service Selector</p>
             </div>
-            <p>Quick Service Selector</p>
           </div>
           <div class="cell auto"></div>
-          <div class="cell small-7">
-            <a href="about.html" class="button hollow">Learn More</a>
-          </div>
         </div>
       </div>
 
@@ -118,12 +119,12 @@
       <div class="cell small-12 grid-x full dropdown-content-container">
 
         <!-- Metal Products -->
-        <div class="absolute hide-container" id="metalProducts" data-selection="false">
+        <div class="absolute hide-container left-image-hover" id="metalProducts" data-selection="false">
           <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content row metalProducts">
-            <img class="close" src="../images/close-button.svg" alt="">
-            <img class="black-triangle opacity-zero" src="../images/triangle-black.svg" alt="">
+            <img class="close" src="../images/home/close-button.svg" alt="">
+            <img class="black-triangle opacity-zero" src="../images/home/triangle-black.svg" alt="">
             <!-- Left Half -->
-            <div class="cell medium-6 grid-x left-half">
+            <div class="cell medium-5 grid-x left-half">
               <!-- Header -->
               <div class="cell small-12">
                 <h2 class="secondary">Dura-Bar</h2>
@@ -162,7 +163,7 @@
               </div>
             </div>
             <!-- Right Half -->
-            <div class="cell medium-6 grid-x right-half">
+            <div class="cell medium-5 grid-x right-half">
               <!-- Header -->
               <div class="cell small-12">
                 <h2 class="secondary">Bronze</h2>
@@ -195,35 +196,52 @@
                 <p>• For Non-Stock Grades - Contact your Dura-Bar MS Representative</p>
               </div>
             </div>
+            <div class="cell auto right-image-hover"></div>
           </div>
         </div>
 
         <!-- Metal Services -->
-        <div class="absolute hide-container" id="metalServices" data-selection="false">
+        <div class="absolute hide-container right-image-hover" id="metalServices" data-selection="false">
           <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content row metalServices">
-            <img class="close" src="../images/close-button.svg" alt="">
-            <img class="black-triangle opacity-zero" src="../images/triangle-black.svg" alt="">
+            <img class="close" src="../images/home/close-button.svg" alt="">
+            <img class="black-triangle opacity-zero" src="../images/home/triangle-black.svg" alt="">
             <!-- Main Container -->
             <div class="cell small-12 grid-x grid-margin-x grid-margin-y text-center row">
               <!-- Fourths 1st -->
               <div class="cell small-12 medium-3">
-                <h2 class="secondary">Cutting</h2>
-                <img src="../images/logo.png" alt="">
+                <a href="">
+                  <h2 class="secondary">Cutting</h2>
+                  <div class="zoom-in color">
+                    <img class="zoom-in color" src="../images/home/cutting.jpg" alt="">
+                  </div>
+                </a>
               </div>
               <!-- Fourths 2nd -->
               <div class="cell small-12 medium-3">
-                <h2 class="secondary">Drilling</h2>
-                <img src="../images/logo.png" alt="">
+                <a href="">
+                  <h2 class="secondary">Drilling</h2>
+                  <div class="zoom-in color">
+                    <img class="zoom-in color" src="../images/home/drilling.jpg" alt="">
+                  </div>
+                </a>
               </div>
               <!-- Fourths 3rd -->
               <div class="cell small-12 medium-3">
-                <h2 class="secondary">Milling</h2>
-                <img src="../images/logo.png" alt="">
+                <a href="">
+                  <h2 class="secondary">Milling</h2>
+                  <div class="zoom-in color">
+                    <img class="zoom-in color" src="../images/home/milling.jpg" alt="">
+                  </div>
+                </a>
               </div>
               <!-- Fourths 4th -->
               <div class="cell small-12 medium-3">
-                <h2 class="secondary">Turning</h2>
-                <img src="../images/logo.png" alt="">
+                <a href="">
+                  <h2 class="secondary">Turning</h2>
+                  <div class="zoom-in color">
+                    <img class="zoom-in color" src="../images/home/turnning.jpg" alt="">
+                  </div>
+                </a>
               </div>
               <!-- Bottom Text -->
               <div class="cell small-12">
@@ -281,7 +299,7 @@
             <div class="cell auto"></div>
             <!-- INLINE STYLES -->
             <div class="cell small-2" style="padding-top:4em;">
-              <img src="../images/location-icon.svg" alt="">
+              <img src="../images/home/location-icon.svg" alt="">
             </div>
             <div class="cell auto"></div>
           </div>
@@ -297,8 +315,8 @@
         <div class="cell small-12">
           <h4>About Dura-Bar Metal Services</h4>
         </div>
-        <div class="cell small-6">
-          <img src="../images/about_buraBar.jpg" alt="">
+        <div class="cell small-6"> 
+          <img src="../images/home/about_buraBar.jpg" alt="">
         </div>
         <div class="cell small-6">
           <p>Dura-Bar Metal Services is a distributor of Dura-Bar continu- ous cast iron bronze alloys with four locations strategically locat- ed to supply the right material at the right time, saving customers time and money.</p>
@@ -312,7 +330,7 @@
           <h4>Machinability Comparisons: Dura-Bar vs. Steel</h4>
         </div>
         <div class="cell small-6">
-          <img src="../images/duraBar_vs_steel.jpg" alt="">
+          <img src="../images/home/duraBar_vs_steel.jpg" alt="">
         </div>
         <div class="cell small-6">
           <p>A time study to compare the machinability of a manifold component made of Dura-Bar compared to a manifold compo- nent made of 1117 steel showed a 33% reduction in cycle time when using Dura-Bar.</p>
@@ -353,17 +371,17 @@
               <a href="">info@durabar-ms.com</a>
           </div>
           <div class="cell medium-2">
-            <ul class="menu">
-              <li><a href="../products.html">Products</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Industries</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">Request a Quote</a></li>
+            <ul class="menu vertical">
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="request-a-quote.html">Request a Quote</a></li>
             </ul>
           </div>
           <div class="cell medium-2">
-            <ul class="menu">
+            <ul class="menu vertical">
               <li><a href="../products.html">About Us</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Careers Teams</a></li>

@@ -19,7 +19,7 @@
     transition: 500ms;
     transform: scale(1);
   }
-  img.zoom-in:hover {
+  div.zoom-in:hover img {
       transform: scale(1.1);
   }
 
@@ -112,7 +112,7 @@
     /* Color Styles */
     img.color {
       transition: 500ms;
-      filter:grayscale(100%);
+      filter:grayscale(50%);
     }
     img.color:hover {
       filter:grayscale(0%);
