@@ -9,6 +9,24 @@
     box-shadow: -79px 0px 75px -41px #0000005c
     color: white
     transition: $transition-timing
+    li
+        a
+            padding: 1em
+            color: $white
+            border-bottom: 1px solid
+            background: transparent
+        ul.is-active
+            a
+                background: white
+                color: $black
+                border-bottom: 1px solid
+    .drilldown 
+        .is-drilldown-submenu-parent
+            &>a::after
+                border-color: transparent transparent transparent white
+        .is-drilldown-submenu-parent.is-active
+            &>a::after
+                border-color: transparent transparent transparent #455560
 .close-mobile-nav
     position: fixed
     z-index: 99999

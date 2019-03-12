@@ -68,6 +68,7 @@
 
 // Components
 @import "components/global/global";
+@import "components/global/global-mobile";
 @import "components/global/header";
 @import "components/global/footer";
 @import "components/global/mobile-nav";
@@ -76,4 +77,5 @@
 @import "components/home/home-hero";
 @import "components/home/home-hero-dropdown";
 @import "components/home/home-hero-interactions";
+@import "components/home/home-hero-mobile";
 @import "components/hover-effects";
