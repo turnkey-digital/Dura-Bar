@@ -123,3 +123,8 @@ function closeThisMenu(props) {
 function updateActiveHeight() {
     $('.active').parent('div').css('height', $('.active').height())
 }
+
+$('.hamburger').click(function(){
+    $('.hamburger').toggleClass('is-active')
+    $('#mobile-nav').toggleClass('mobile-nav-hidden')
+});

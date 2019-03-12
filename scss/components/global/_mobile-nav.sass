@@ -9,6 +9,20 @@
     box-shadow: -79px 0px 75px -41px #0000005c
     color: white
     transition: $transition-timing
+    form
+        width: 80%
+        margin-top: 1.2rem 
+        padding: 1rem
+        display: flex
+        flex-direction: column
+        .button.hollow.white 
+            width: 6em
+            color: white !important;
+            border-color: white !important
+            box-shadow: none !important
+    .is-drilldown-submenu
+        min-height: 100vh
+        background: $primary-color
     li
         a
             padding: 1em
@@ -27,14 +41,34 @@
         .is-drilldown-submenu-parent.is-active
             &>a::after
                 border-color: transparent transparent transparent #455560
-.close-mobile-nav
-    position: fixed
-    z-index: 99999
-    width: 1rem
-    height: 1rem
-    top: 1.75em
-    right: 2.5em
-    span
-        color: $white
+
+#mobile-nav .drilldown .is-drilldown-submenu.is-active>a::after
+    border-color: transparent transparent transparent black
+
+
 #mobile-nav.mobile-nav-hidden
     right: -100%
+
+// Hamburger Icon
+.hamburger 
+    position: fixed
+    z-index: 99999
+    top: 18px
+    right: 18px
+    .hamburger-box
+        width: 2rem
+        span:before
+            width: 2rem
+            top: -10px
+        span
+            width: 2rem
+        span:after
+            width: 2rem
+            bottom: -10px
+.hamburger:hover
+    opacity: .7
+.hamburger.is-active:hover
+    opacity: 1
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before
+    background-color:white !important
+

@@ -67,6 +67,7 @@
 @include motion-ui-animations;
 
 // Components
+@import "components/global/hamberger-animations";
 @import "components/global/global";
 @import "components/global/global-mobile";
 @import "components/global/header";
