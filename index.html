@@ -20,7 +20,8 @@
         </div>
         <!-- Right Half -->
         <div class="top-bar-right">
-          <div class="grid-y">
+          <!-- Medium & Up -->
+          <div class="grid-y hide-for-small-only">
             <!-- top section -->
             <div class="cell small-3">
               <ul class="menu align-right simple">
@@ -51,7 +52,62 @@
               </ul>
             </div>
           </div>
+          <!-- Mobile Navigation -->
+          <div class="hide-for-medium">
+            <!-- Hamberger -->
+            <span data-toggle="mobile-nav" >
+              <span class="menu-icon dark " data-toggle></span>
+            </span>
+            <!-- Actuall Menu -->
+            <span data-toggle="mobile-nav" class="close-mobile-nav">
+              <span class="" data-toggle>close</span>
+            </span>
+            <div id="mobile-nav" class="mobile-nav-hidden" data-toggler="mobile-nav-hidden">
+              <p>This is one div.</p>
+              <ul class="vertical menu" data-responsive-menu="drilldown">
+                <li>
+                  <a href="#">Item 1</a>
+                  <ul class="vertical menu">
+                    <li>
+                      <a href="#">Item 1A</a>
+                      <ul class="vertical menu">
+                        <li><a href="#">Item 1A</a></li>
+                        <li><a href="#">Item 1B</a></li>
+                        <li><a href="#">Item 1C</a></li>
+                        <li><a href="#">Item 1D</a></li>
+                        <li><a href="#">Item 1E</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Item 1B</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Item 2</a>
+                  <ul class="vertical menu">
+                    <li><a href="#">Item 2A</a></li>
+                    <li><a href="#">Item 2B</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Item 3</a>
+                  <ul class="vertical menu">
+                    <li><a href="#">Item 3A</a></li>
+                    <li><a href="#">Item 3B</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="hide-for-medium mobile-bottom-bar">
+        <ul class="menu align-center simple">
+          <li><a href="#">Request a Quote</a></li>
+          <li><span>|</span></li>
+          <li><a href="#">Contact Info</a></li>
+          <li><span>|</span></li>
+          <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+        </ul>
       </div>
     </div>
     <!-- END OF HEADER -->
@@ -84,12 +140,12 @@
               ﬂuid power, oil and gas, machine tools and more!</i></p>
           </div>
           <!-- Selector and button -->
-          <div class="cell small-5 dropdown-selector left-image-hover" id="MP">
+          <div class="dropdown-selector left-image-hover" id="MP">
             <div  class="button hollow">
               <div class="triangle">
                 <img src="../images/global/triangle.png" alt="">
               </div>
-              <p>Quick Product Selector</p>
+              <p>View Products</p>
             </div>
           </div>
           <div class="cell auto left-image-hover"></div>
@@ -103,12 +159,12 @@
               save time and money.</i></p>
           </div>
           <!-- Selector and button -->
-          <div class="cell small-5 dropdown-selector right-image-hover" id="MS">
+          <div class="dropdown-selector right-image-hover" id="MS">
             <div class="button hollow">
               <div class="triangle">
                 <img src="../images/global/triangle.png" alt="">
               </div>
-              <p>Quick Service Selector</p>
+              <p>View Services</p>
             </div>
           </div>
           <div class="cell auto"></div>
@@ -120,93 +176,98 @@
 
         <!-- Metal Products -->
         <div class="absolute hide-container left-image-hover" id="metalProducts" data-selection="false">
-          <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content row metalProducts">
-            <img class="close" src="../images/home/close-button.svg" alt="">
+          <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content rowDD metalProducts">
+            <p class="close">close</p>
             <img class="black-triangle opacity-zero" src="../images/home/triangle-black.svg" alt="">
             <!-- Left Half -->
             <div class="cell medium-5 grid-x left-half">
               <!-- Header -->
               <div class="cell small-12">
-                <h2 class="secondary">Dura-Bar</h2>
+                <a><h2 class="secondary">Dura-Bar</h2></a>
               </div>
               <!-- Column 1 -->
               <div class="cell medium-4">
-                <strong>Ductile Iron</strong>
+                <strong>
+                  <a>Ductile Iron</a></strong>
                 <ul>
-                  <li>65-45-12 65-</li>
-                  <li>45-12X 80-</li>
-                  <li>55-06 80-55-</li>
-                  <li>06X SSDI</li>
-                  <li>60-40-18</li>
-                  <li>100-70-03</li>
+                  <li><a>65-45-12 65</a></li>
+                  <li><a>45-12X 80</a></li>
+                  <li><a>55-06 80-55</a></li>
+                  <li><a>06X SSDI</a></li>
+                  <li><a>60-40-18</a><span class="dotDot">•</span></li>
+                  <li><a>100-70-03</a><span class="dotDot">•</span></li>
                 </ul>
               </div>
               <!-- Column 2 -->
               <div class="cell medium-4">
-                <strong>Gray Iron</strong>
+                <strong><a>Gray Iron</a></strong>
                 <ul>
-                  <li>G2 G2P</li>
-                  <li>G25 GX</li>
-                  <li>G2A</li>
-                  <li>G1A</li>
+                  <li><a>G2 G2P</a></li>
+                  <li><a>G25 GX</a></li>
+                  <li><a>G2A</a></li>
+                  <li><a>G1A</a></li>
                 </ul>
               </div>
               <!-- Column 3 -->
               <div class="cell medium-4">
-                <strong>Ni-Resist</strong>
+                <strong><a>Ni-Resist</a></strong>
                 <ul>
-                  <li>201 Type 1</li>
+                  <li><a>201 Type 1</a></li>
                 </ul>
               </div>
               <div class="cell small-12">
-                <p>• For Non-Stock Grades - Contact your Dura-Bar MS Representative</p>
+                <p><span class="dotDot">•</span> For Non-Stock Grades - <a><i><u>Contact your Dura-Bar MS Representative</u></i></a> </p>
               </div>
             </div>
             <!-- Right Half -->
             <div class="cell medium-5 grid-x right-half">
               <!-- Header -->
               <div class="cell small-12">
-                <h2 class="secondary">Bronze</h2>
+                <a><h2 class="secondary">Bronze</h2></a>
               </div>
               <!-- Column 1 -->
               <div class="cell medium-5">
-                <strong>Continuous Cast</strong>
+                <strong><a>Continuous Cast</a></strong>
                 <ul>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
+                  <li><a>C93200</a></li>
+                  <li><a>C95400</a></li>
+                  <li><a>C86300</a></li>
+                  <li><a>C89835</a></li>
+                  <li><a>C90300</a></li>
+                  <li><a>C95500</a></li>
+                  <li><a>AMS 4880 C95510</a></li>
+                  <li><a>C95900</a></li>
                 </ul>
               </div>
               <!-- Column 2 -->
               <div class="cell medium-5">
-                <strong>Wrought / Extruded</strong>
+                <strong><a>Wrought / Extruded</a></strong>
                 <ul>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
-                  <li>Words</li>
+                  <li><a>C31400</a></li>
+                  <li><a>C51000</a></li>
+                  <li><a>C54400</a></li>
+                  <li><a>AMS 4590 C63020</a></li>
+                  <li><a>C64200</a></li>
+                  <li><a>C67300</a></li>
                 </ul>
               </div>
               <!-- Column 3 -->
               <div class="cell auto"></div>
               <div class="cell small-12">
-                <p>• For Non-Stock Grades - Contact your Dura-Bar MS Representative</p>
+                <p><span class="dotDot">•</span> For Non-Stock Grades - <a><i><u>Contact your Dura-Bar MS Representative</u></i></a></p>
               </div>
             </div>
-            <div class="cell auto right-image-hover"></div>
+            <div class="cell auto left-image-hover"></div>
           </div>
         </div>
 
         <!-- Metal Services -->
         <div class="absolute hide-container right-image-hover" id="metalServices" data-selection="false">
-          <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content row metalServices">
-            <img class="close" src="../images/home/close-button.svg" alt="">
+          <div class="cell small-12 grid-container grid-x grid-padding-x dropdown-content rowDD metalServices">
+            <p class="close">close</p>
             <img class="black-triangle opacity-zero" src="../images/home/triangle-black.svg" alt="">
             <!-- Main Container -->
-            <div class="cell small-12 grid-x grid-margin-x grid-margin-y text-center row">
+            <div class="cell small-12 grid-x grid-margin-x grid-margin-y text-center">
               <!-- Fourths 1st -->
               <div class="cell small-12 medium-3">
                 <a href="">
@@ -285,11 +346,11 @@
               <!-- Buttons -->
               <div class="cell small-4">
                 <!-- Left Button -->
-                <a href="" class="button hollow expanded">Button</a>
+                <a href="" class="button hollow expanded">VIEW ALL LOCATIONS</a>
               </div>
               <div class="cell small-4">
                 <!-- Right Button -->
-                <a href="" class="button hollow expanded">Button</a>
+                <a href="" class="button hollow expanded">REQUEST FOR QUOTE</a>
               </div>
             </div>
           </div>
@@ -343,7 +404,7 @@
       </div>
       <!-- Call to action -->
       <div class="cell small-12 grid-x text-center">
-        <div class="cell small-12">
+        <div class="cell small-12 cta">
           <h3>Call us today to discuss your application at 888-DURA-BAR (888.387.2227) or click to complete our quote form.</h3>
           <div class="cell auto"></div>
           <div class="cell small-6">
@@ -361,7 +422,7 @@
     <div class="grid-container footer full primary-">
       <div class="grid-container">
         <div class="grid-x grid-margin-x holder">
-          <div class="cell medium-2">
+          <div class="cell medium-3">
             <strong>Dura-Bar Metal Services</strong>
             <br>
             <a href="">2195 W Lake Shore Drive<br>
@@ -390,10 +451,10 @@
             </ul>
           </div>
           <div class="cell auto"></div>
-          <div class="cell medium-3 grid-y">
+          <div class="cell medium-3 grid-y align-right">
               <div class="cell small-3">
                 <a href="../">
-                  <img src="../images/footerLogo.png" alt="">
+                  <img class="footer-logo" src="../images/footerLogo.png" alt="">
                 </a>
               </div>
               <div class="cell auto"></div>

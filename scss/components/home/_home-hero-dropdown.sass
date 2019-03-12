@@ -17,7 +17,9 @@
   height: 0
   div
     transition: $transition-timing
-
+  .rowDD
+    padding-top: 5em
+    padding-bottom: 2em
   .dropdown-content
     position: relative
     .close
@@ -26,6 +28,7 @@
       top: 1em
       right: 0
       width: 2em
+      user-select: none
       transition: $transition-timing
       &:hover
         opacity: $hover-opacity
@@ -33,7 +36,7 @@
       position: absolute
       left: calc(25% - 25px)
       width: 50px
-      top: 0
+      top: -1px
 .dropdown-selector
   img
     user-select: none
@@ -41,20 +44,25 @@
     user-select: none
 
 // metalProducts
-.metalProducts
-  // .left-half
-  //   border-right: 1px solid black
-  //   width: calc(50% - 10px)
-  .right-half
-    // padding-left: calc(3em + 10px)
+#metalProducts
+  ul
+    list-style: none
+    a
+      color: $black !important
+    .dotDot 
+      color: #666666
+      padding-left: .25em
 
 // metalServices
 .dropdown-content-container
+  h2
+    color: $secondary-color !important
+    font-size: 2rem
   .metalServices
     .black-triangle
       right: calc(25% - 25px)
       left: unset
     a
-      h2
-        color: $secondary-color
-        font-size: 2rem
+      div
+        margin: auto
+        width: 80%

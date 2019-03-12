@@ -18,18 +18,20 @@
       border-right: 20px solid $white
     .zoom
       img
-        transform: scale(1.2)
+        transform: scale(1.1)
     .inactive
       img
         filter: grayscale(100%)
   .content
-    margin-top: -25vh
+    margin-top: -22vh
     color: $white
     z-index: 999
     padding-right: 0rem
     padding-left: 0rem
     border-right: 1.04167rem
     border-left: 1.04167rem
+    h1
+      margin-bottom: -1rem
     .medium-6 
       padding-right: 0rem
       padding-left: 0rem
@@ -40,18 +42,19 @@
       border-color: $white
       background: transparent
     .dropdown-selector
-      display: inline
-      // div
       cursor: pointer
       transition: $transition-timing
-      &:hover
-        opacity: $hover-opacity
-      p
-        margin: 0
-        float: left
-        user-select: none
-      .triangle
-        float: left
-        width: 1rem
-        height: 1rem
-        margin-right: 1rem
+      div
+        display: flex
+        align-items: center
+        &:hover
+          opacity: $hover-opacity
+        p
+          margin: 0
+          float: left
+          user-select: none
+        .triangle
+          float: left
+          width: .75rem
+          height: .75rem
+          margin-right: .75rem

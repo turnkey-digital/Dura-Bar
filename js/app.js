@@ -51,6 +51,11 @@ $('window').ready(function () {
             $('.dropdown-content-container').css('height', 0)
         }
     }
+    $('.header').mouseenter(function () {
+        closeOther("#metalServices")
+        closeOther('#metalProducts')
+        updateParentHeight()
+    })
 });
 
 // Home Hero Interaction Effects
