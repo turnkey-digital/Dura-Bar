@@ -51,21 +51,8 @@
     a
       color: $black !important
       border-bottom: 1px solid transparent
-      padding: 1px
+      padding: 0px
       position: relative
-      &:after
-        content: " "
-        opacity: 0
-        border: 1px solid black
-        border-left: 0
-        width: 6px
-        height: 6px
-        position: absolute
-        border-top: 0
-        transform: rotate(-45deg)
-        top: calc(50% - 3px)
-        right: -8px
-        transition: $transition-timing
       &:hover
         border-bottom: 1px solid $black
         &:after

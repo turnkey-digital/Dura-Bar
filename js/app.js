@@ -51,7 +51,7 @@ $('window').ready(function () {
             $('.dropdown-content-container').css('height', 0)
         }
     }
-    $('.header').mouseenter(function () {
+    $('.nearest-location').mouseenter(function () {
         closeOther("#metalServices")
         closeOther('#metalProducts')
         updateParentHeight()
@@ -130,7 +130,7 @@ $('.hamburger').click(function(){
     $('.hamburger').toggleClass('is-active')
     $('#mobile-nav').toggleClass('mobile-nav-hidden')
 });
-// $('.search-button').click(function(){
-//     $('#search-bar-mobile').toggle(500);
-// })
+$('.search-button').click(function(){
+    $('#search-bar-mobile').toggleClass('hiding');
+})
 // END OF MOBILE NAV

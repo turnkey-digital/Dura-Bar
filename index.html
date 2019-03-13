@@ -9,7 +9,6 @@
   <link rel="shortcut icon" type="image/png" href="../images/favi.png" />
   <link rel="stylesheet" href="css/app.css">
 </head>
-<!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet"> -->
 <body>
   <!-- START OF HEADER -->
   <div class="grid-container">
@@ -20,14 +19,14 @@
           <img class="logo" src="../images/logo.png" alt="Dura-Bar Metal Services Logo">
         </a>
 <!-- Search -->
-<div id="search-bar-mobile" class="hidden" data-toggler data-animate="slide-in-down slide-out-up fast">
-  <div class="input-group">
-    <input class="input-group-field" type="text" placeholder="Search">
-    <div class="input-group-button">
-      <input type="submit" class="button secondary" value="Submit">
-    </div>
-  </div>
-</div>
+
+        <div class="search-bar-conatiner">
+          <!-- <div id="search-bar-mobile" class="hidden" data-toggler data-animate="hinge-in-from-top slide-out-up fast"> -->
+          <div id="search-bar-mobile" class="hiding" >
+                <input class="input-group-field" type="text" placeholder="Search">
+                <input type="submit" class="button" value="Submit">
+            </div>
+          </div>
       </div>
       <!-- Right Half -->
       <div class="top-bar-right">
@@ -57,7 +56,7 @@
             <ul class="menu align-right simple main-nav">
               <li><a href="products.html">PRODUCTS</a></li>
               <li><a href="services.html">SERVICES</a></li>
-              <li><a href="location.html">LOCATION</a></li>
+              <li><a href="locations.html">LOCATION</a></li>
               <li><a href="industries.html">INDUSTRIES</a></li>
               <li><a href="resources.html">RESOURCES</a></li>
             </ul>
@@ -86,22 +85,24 @@
           <li><a href="#">Products</a>
             <ul class="vertical menu">
               <!-- All Products -->
-              <li><a href="./products.html">All Products</a></li>
+              <li><a href="./products.html">Products</a></li>
               <!-- Dura Bar -->
               <li><a href="./products/dura-bar.html">Dura Bar</a>
                 <ul class="vertical menu">
                   <!-- All Products -->
-                  <li><a href="./products/dura-bar.html">All Dura Bar Products</a></li>
+                  <li><a href="./products/dura-bar.html">Dura Bar</a></li>
                   <!-- Ductile Iron -->
                   <li><a href="./products/dura-bar/ductile-iron.html">Ductile Iron</a>
                     <ul class="vertical menu">
+                      <li><a href="#">Ductile Iron</a></li>
                       <li><a href="#">65-45-12 Ferritic Ductile Iron</a></li>
                       <li><a href="#">65-45-12X Ferritic Ductile Iron</a></li>
                       <li><a href="#">80-55-06 Pearlitic Ductile Iron</a></li>
                       <li><a href="#">80-55-06X Pearlitic Ductile Iron</a></li>
                       <li><a href="#">60-40-18 <span class="dotDot">•</span></a></li>
                       <li><a href="#">100-70-03 <span class="dotDot">•</span></a></li>
-                      <li> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS Representative</li>
+<li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS
+  Representative</li>
                     </ul>
                   </li>                
                   <!-- Gray Iron -->
@@ -112,12 +113,14 @@
                       <li><a href="#">G2S</a></li>
                       <li><a href="#">G2A <span class="dotDot">•</span></a></li>
                       <li><a href="#">G1A <span class="dotDot">•</span></a></li>
-                      <li> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS Representative</li>
+<li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS
+  Representative</li>
                     </ul>
                   </li>
                   <!-- Ni-Reist -->
                   <li><a href="./products/dura-bar/ni-resist.html">Ni-Resist Iron</a>
                     <ul class="vertical menu">
+                      <li><a>Ni-Reist</a></li>
                       <li><a href="#">201 Type 1 Gray Iron Ni-Resist</a></li>
                     </ul>
                   </li>
@@ -132,10 +135,11 @@
                 <!-- Bronze -->
                 <li><a href="#">Bronze</a>
                   <ul class="vertical menu">
-                    <li><a href="#">All Bronze Products</a></li>
+                    <li><a href="#">Bronze</a></li>
                     <!-- Wrought / Extruded -->
-                    <li><a href="#">Wrought/Extruded</a>
+                    <li><a href="#">Wrought / Extruded</a>
                       <ul class="vertical menu">
+                        <li><a href="#">Wrought / Extruded</a></li>
                         <li><a href="#">C31400 Leaded Commercial Bronze</a></li>
                         <li><a href="#">C51000 Phosphor Bronze 5% A</a></li>
                         <li><a href="#">C54400 Phosphor Bronze B-2</a></li>
@@ -147,6 +151,7 @@
                     <!-- Continuous Cast Bronze -->
                     <li><a href="#">Continuous Cast Bronze</a>
                       <ul class="vertical menu">
+                        <li><a href="#">Continuous Cast Bronze</a></li>
                         <li><a href="#">C86300 Manganese Bronze</a></li>
                         <li><a href="#">C89835 Bismuth Tin Bronze</a></li>
                         <li><a href="#">C90300 Tin Bronze (SAE620)</a></li>
@@ -167,9 +172,10 @@
           <!-- START OF SERVICES -->
           <li><a href="#">Services</a>
             <ul class="vertical menu">
+              <li><a href="#">Services</a></li>
               <li><a href="#">Metal Cutting</a></li>
               <li><a href="#">Drilling and Turning</a></li>
-              <li><a href="#">Milling/a></li>
+              <li><a href="#">Milling</a></li>
               <li><a href="#">Trepanning</a></li>
             </ul>  
           <!-- END OF SERVICES -->
@@ -179,6 +185,7 @@
           <!-- START OF RESOURCES -->
           <li><a href="#">Resources</a>
               <ul class="vertical menu">
+                <li><a href="#">Resources</a></li>
                 <li><a href="#">Resource Guides</a></li>
                 <li><a href="#">Size Schedules</a></li>
                 <li><a href="#">SDS</a></li>
@@ -293,6 +300,8 @@
                   <li><a>SSDI</a></li>
                   <li><a>60-40-18</a><span class="dotDot">•</span></li>
                   <li><a>100-70-03</a><span class="dotDot">•</span></li>
+<li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS
+  Representative</li>
                 </ul>
               </div>
               <!-- Column 2 -->
@@ -305,6 +314,8 @@
                   <li><a>GX</a></li>
                   <li><a>G2A</a><span class="dotDot">•</span></li>
                   <li><a>G1A</a><span class="dotDot">•</span></li>
+<li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact your Dura-Bar MS
+  Representative</li>
                 </ul>
               </div>
               <!-- Column 3 -->
@@ -526,8 +537,6 @@
           </a><br>
           <a href="">Fax: 815-338-4608</a>
         </p>
-      </div>
-      <div class="cell small-12">
         <a href="" class="more-about-link">See All Locations</a>
       </div>
       <div class="hide-for-medium cell small-12">
@@ -558,10 +567,10 @@
       <div class="cell small-12">
         <h4>Machinability Comparisons: Dura-Bar vs. Steel</h4>
       </div>
-      <div class="cell small-12 medium-6 home-call-out-images">
+      <div class="cell small-4 medium-6 ">
         <img src="../images/home/duraBar_vs_steel.jpg" alt="">
       </div>
-      <div class="cell small-12 medium-6">
+      <div class="cell small-8 medium-6">
         <p>A time study to compare the machinability of a manifold component made of Dura-Bar compared to a manifold
           compo- nent made of 1117 steel showed a 33% reduction in cycle time when using Dura-Bar.</p>
         <a href="" class="more-about-link">More About Dura-Bar</a>
@@ -586,7 +595,7 @@
       <div class="cell small-12 row hide-for-medium">
         <hr />
       </div>
-      <div class="cell small-12 row hide-for-medium">
+      <div class="cell small-12 row hide-for-medium remove-padding-top">
         <ul class="menu align-center mobile-footer-menu">
           <li><a href="" class="mobile-footer-menu-item">
               <p>Privacy</p>
@@ -627,15 +636,15 @@
           <br>
           <a href="">2195 W Lake Shore Drive<br>
             Woodstock, Illinois 60098</a>
-          <hr>
-          <a href="">888.387.2227</a>
+          <hr style="max-width:12rem; margin-right:0">
+          <a href="">888.387.2227</a><br>
           <a href="">info@durabar-ms.com</a>
         </div>
         <div class="cell medium-2">
           <ul class="menu vertical">
             <li><a href="products.html">Products</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="location.html">Location</a></li>
+            <li><a href="locations.html">Location</a></li>
             <li><a href="industries.html">Industries</a></li>
             <li><a href="resources.html">Resources</a></li>
             <li><a href="request-a-quote.html">Request a Quote</a></li>
