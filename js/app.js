@@ -123,8 +123,14 @@ function closeThisMenu(props) {
 function updateActiveHeight() {
     $('.active').parent('div').css('height', $('.active').height())
 }
+// END OF SIDE BAR
 
+// Mobile Nav Interactions
 $('.hamburger').click(function(){
     $('.hamburger').toggleClass('is-active')
     $('#mobile-nav').toggleClass('mobile-nav-hidden')
 });
+// $('.search-button').click(function(){
+//     $('#search-bar-mobile').toggle(500);
+// })
+// END OF MOBILE NAV

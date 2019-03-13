@@ -1,7 +1,22 @@
 @charset 'utf-8';
 
-// Added Custom Font
+// Added Custom Font & Icons
 @import url("https://use.typekit.net/dcv6iqf.css");
+$font-path: "../fonts/foundation-icons/foundation-icons";
+
+@font-face {
+    font-family: "foundation-icons";
+    src: url("#{$font-path}.eot");
+    src: url("#{$font-path}.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}.woff") format("woff"),
+    url("#{$font-path}.ttf") format("truetype"),
+    url("#{$font-path}.svg#fontcustom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "../fonts/foundation-icons/foundation-icons.css";
+
 
 @import 'settings';
 @import 'foundation';
@@ -77,6 +92,5 @@
 @import "components/home/styles";
 @import "components/home/home-hero";
 @import "components/home/home-hero-dropdown";
-@import "components/home/home-hero-interactions";
 @import "components/home/home-hero-mobile";
 @import "components/hover-effects";
