@@ -6,8 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products | Dura-Bar Metal Services</title>
-    <link rel="shortcut icon" type="image/png" href="../images/favi.png" />
-    <link rel="stylesheet" href="../css/app.css">
+    <link rel="shortcut icon" type="image/png" href="../../../images/favi.png" />
+    <link rel="stylesheet" href="../../../css/app.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
             <!-- Left Half -->
             <div class="top-bar-left">
                 <a href="../">
-                    <img class="logo" src="../images/logo.png" alt="Dura-Bar Metal Services Logo">
+                    <img class="logo" src="../../../images/logo.png" alt="Dura-Bar Metal Services Logo">
                 </a>
                 <!-- Search -->
 
@@ -218,7 +218,7 @@
     <!-- END OF HEADER -->
     <!-- Page Sepperator -->
     <div class="grid-container hide-for-small-only full">
-        <img src="../images/sub-page-haeder.png" alt="">
+        <img src="../../../images/sub-page-haeder.png" alt="">
     </div>
     <!-- Bread Crumbs -->
     <div class="grid-container">
@@ -232,21 +232,36 @@
                     <meta itemprop="position" content="1">
                 </li>
                 <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../products.html">
+                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../../../products.html">
                         <span itemprop="name">Products</span>
                     </a>
                     <span class="delimiter">:</span>
                     <meta itemprop="position" content="2">
                 </li>
-                <li class="current-page" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../products/dura-bar.html">
+                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../../../products.html">
                         <span itemprop="name">Dura-Bar</span>
                     </a>
+                    <span class="delimiter">:</span>
                     <meta itemprop="position" content="3">
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../../../products.html">
+                        <span itemprop="name">Ductile Iron</span>
+                    </a>
+                    <span class="delimiter">:</span>
+                    <meta itemprop="position" content="4">
+                </li>
+                <li class="current-page" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                    <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../../../products/dura-bar.html">
+                        <span itemprop="name">65-45-12 Ductile Iron</span>
+                    </a>
+                    <meta itemprop="position" content="5">
                 </li>
             </ol>
         </nav>
     </div>
+
     <!-- END OF HEADER -->
 
     <!-- START OF BODY -->
@@ -254,14 +269,14 @@
         <div class="grid-x grid-margin-x">
             <!-- Page Title -->
             <div class="cell small-12">
-                <h1>Dura-Bar</h1>
+                <h1>65-45-12 Ductile Iron</h1>
                 <hr>
             </div>
             <!-- START OF MAIN CONTENT -->
             <div class="cell small-12 medium-9 grid-x grid-padding-y">
                 <!-- interaction Paragraph -->
                 <div class="small-12">
-                    <h3>Ductile Iron</h3>
+                    <h3>First Line</h3>
                     <p>Dura-Bar is an engineered iron that offers machining advantages over carbon and alloy steel as
                         well as
                         other continuous cast iron bars. Dura-Bar continuous cast iron bar stock provides solutions,
@@ -273,38 +288,6 @@
                         virtually any special alloy, shape or size. Bronze alloys can be brazed and soldered, are easy
                         to machine
                         and wear well against steel.</p>
-                    <a href="../products/dura-bar/ductile-iron.html" class="more-about-link">Learn More About Ductile
-                        Iron</a>
-                </div>
-                <div class="small-12">
-                    <h3>Gray Iron</h3>
-                    <p>Dura-Bar is an engineered iron that offers machining advantages over carbon and alloy steel as
-                        well as
-                        other continuous cast iron bars. Dura-Bar continuous cast iron bar stock provides solutions,
-                        improves
-                        performance and results in signiﬁcant long-term cost savings. Dura-Bar Metal Services also
-                        offers a
-                        complete line of continu- ous cast and wrought, or extruded, bronze alloys—from standard stock
-                        offerings to
-                        virtually any special alloy, shape or size. Bronze alloys can be brazed and soldered, are easy
-                        to machine
-                        and wear well against steel.</p>
-                    <a href="../products/dura-bar/gray-iron.html" class="more-about-link">Learn More About Ductile Iron</a>
-                </div>
-                <div class="small-12">
-                    <h3>Ni-Reist</h3>
-                    <p>Dura-Bar is an engineered iron that offers machining advantages over carbon and alloy steel as
-                        well as
-                        other continuous cast iron bars. Dura-Bar continuous cast iron bar stock provides solutions,
-                        improves
-                        performance and results in signiﬁcant long-term cost savings. Dura-Bar Metal Services also
-                        offers a
-                        complete line of continu- ous cast and wrought, or extruded, bronze alloys—from standard stock
-                        offerings to
-                        virtually any special alloy, shape or size. Bronze alloys can be brazed and soldered, are easy
-                        to machine
-                        and wear well against steel.</p>
-                    <a href="../products/dura-bar/ni-resist.html" class="more-about-link">Learn More About Ductile Iron</a>
                 </div>
             </div>
             <!-- END OF MAIN CONTENT -->
@@ -313,19 +296,19 @@
             <div class="cell small-12 medium-3 grid-padding-y side-bar">
 
                 <ul class="side-bar-menu">
-                    <li><a href="../products/dura-bar.html">
+                    <li><a href="../../../products/dura-bar.html">
                             <h6>Dura-Bar</h6>
                         </a>
                     </li>
                     <li class="side-bar-sub-menu">
                         <div class="titleSelector">
-                            <span class="close-menu" menu="1"><img src="../images/global/side-bar-x.png" alt="A open close 'X' toggle"
+                            <span class="close-menu" menu="1"><img src="../../../images/global/side-bar-x.png" alt="A open close 'X' toggle"
                                     class="side-bar-x opened"></span>
-                            <a href="../products/dura-bar/ductile-iron.html" class="title">Ductile Iron</a>
+                            <a href="../../../products/dura-bar/ductile-iron.html" class="title">Ductile Iron</a>
                         </div>
                         <div class="menu-holder">
                             <ul class="menu-1 active">
-                                <li><a href="../products/dura-bar/ductile-iron/65-45-12_ferritic_ductile_iron.html">65-45-12
+                                <li><a href="../../../products/dura-bar/ductile-iron/65-45-12_ferritic_ductile_iron.html">65-45-12
                                         Ferritic Ductile Iron</a></li>
                                 <li><a href="#">65-45-12X Ferritic Ductile Iron</a></li>
                                 <li><a href="#">80-55-06 Pearlitic Ductile Iron</a></li>
@@ -337,9 +320,9 @@
                     </li>
                     <li class="side-bar-sub-menu">
                         <div class="titleSelector">
-                            <span class="close-menu" menu="2"><img src="../images/global/side-bar-x.png" alt="A open close 'X' toggle"
+                            <span class="close-menu" menu="2"><img src="../../../images/global/side-bar-x.png" alt="A open close 'X' toggle"
                                     class="side-bar-x"></span>
-                            <a href="../products/dura-bar/gray-iron.html">Gray Iron</a>
+                            <a href="../../../products/dura-bar/gray-iron.html">Gray Iron</a>
                         </div>
                         <div class="menu-holder">
                             <ul class="menu-2">
@@ -353,7 +336,7 @@
                     </li>
                     <li class="side-bar-sub-menu">
                         <div class="titleSelector">
-                            <span class="close-menu" menu="3"><img src="../images/global/side-bar-x.png" alt="A open close 'X' toggle"
+                            <span class="close-menu" menu="3"><img src="../../../images/global/side-bar-x.png" alt="A open close 'X' toggle"
                                     class="side-bar-x"></span>
                             <a>Ni-Reist</a>
                         </div>
@@ -370,7 +353,7 @@
                     </li>
                     <li class="side-bar-sub-menu">
                         <div class="titleSelector">
-                            <span class="close-menu" menu="4"><img src="../images/global/side-bar-x.png" alt="A open close 'X' toggle"
+                            <span class="close-menu" menu="4"><img src="../../../images/global/side-bar-x.png" alt="A open close 'X' toggle"
                                     class="side-bar-x"></span>
                             <a href="#">Wrought / Extruded</a>
                         </div>
@@ -388,7 +371,7 @@
                     </li>
                     <li class="side-bar-sub-menu">
                         <div class="titleSelector">
-                            <span class="close-menu" menu="5"><img src="../images/global/side-bar-x.png" alt="A open close 'X' toggle"
+                            <span class="close-menu" menu="5"><img src="../../../images/global/side-bar-x.png" alt="A open close 'X' toggle"
                                     class="side-bar-x"></span>
                             <a href="#">Continuous Cast Bronze</a>
                         </div>
@@ -419,9 +402,6 @@
 
         <!-- Line -->
         <div class="cell small-12 row">
-             &nbsp;
-            <!-- This is a bug that I have not figured out. 
-            If you remove the &nbsp; then the HR will only span 3/4's -->
             <hr />
         </div>
         <!-- Call to action -->
@@ -485,17 +465,17 @@
                 </div>
                 <div class="cell medium-2">
                     <ul class="menu vertical">
-                        <li><a href="../products.html">Products</a></li>
-                        <li><a href="../services.html">Services</a></li>
-                        <li><a href="../locations.html">Location</a></li>
-                        <li><a href="../industries.html">Industries</a></li>
-                        <li><a href="../resources.html">Resources</a></li>
-                        <li><a href="../request-a-quote.html">Request a Quote</a></li>
+                        <li><a href="../../../products.html">Products</a></li>
+                        <li><a href="../../../services.html">Services</a></li>
+                        <li><a href="../../../locations.html">Location</a></li>
+                        <li><a href="../../../industries.html">Industries</a></li>
+                        <li><a href="../../../resources.html">Resources</a></li>
+                        <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
                     </ul>
                 </div>
                 <div class="cell medium-2">
                     <ul class="menu vertical">
-                        <li><a href="../products.html">About Us</a></li>
+                        <li><a href="../../../about-us.html">About Us</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Careers Teams</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -505,8 +485,8 @@
                 <div class="cell auto"></div>
                 <div class="cell medium-3 grid-y">
                     <div class="cell small-3 text-right">
-                        <a href="../">
-                            <img class="footer-logo" src="../images/footerLogo.png" alt="">
+                        <a href="../../../">
+                            <img class="footer-logo" src="../../../images/footerLogo.png" alt="">
                         </a>
                     </div>
                     <div class="cell auto"></div>
@@ -539,10 +519,10 @@
         </div>
     </div>
     <!-- End Of Footer -->
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../node_modules/what-input/dist/what-input.js"></script>
-    <script src="../node_modules/foundation-sites/dist/js/foundation.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../../node_modules/what-input/dist/what-input.js"></script>
+    <script src="../../../node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="../../../js/app.js"></script>
 </body>
 
 </html>
