@@ -11,12 +11,32 @@ $hover-opacity: .5
 .button.secondary
   margin-top: 1em
   padding: 12px  
+.button.success 
+    background-color: transparent
+    color: #0a0a0a
+    border: 1px solid
+    transition: $transition-timing
+    &:hover
+      background-color: transparent
+.button.alert
+  background-color: $secondary-color
+  transition: $transition-timing
+  &:hover
+    background-color: $secondary-color
 
 // Global Interactions
 a
   transition: $transition-timing
-a:hover
-  opacity: $hover-opacity
+  &:hover
+    opacity: $hover-opacity
+.dark-hover-link
+  color: $black !important
+  border-bottom: 1px solid transparent
+  padding: 0px
+  position: relative
+  &:hover
+    border-bottom: 1px solid $black
+
   
 // Additional classes
 .hidden
