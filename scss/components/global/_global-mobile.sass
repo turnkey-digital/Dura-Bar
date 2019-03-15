@@ -12,3 +12,39 @@
             color: rgba(255,255,255,.5) 
             a
                 color: rgba(255,255,255,.5)
+    
+    //table
+    table
+        display: flex
+        thead
+            border: 0
+            background: transparent
+            padding: 5px
+            tr
+                z-index: 9
+                box-shadow: 10px 0px 10px -9px rgba(0, 0, 0, 0.18)
+                display: flex
+                flex-direction: column
+                background: $primary-color
+                th
+                    border: 1px solid white
+                    height: 6rem
+                    width: 10rem
+                    // justify-content: center
+        tbody
+            display: flex
+            overflow-x: auto
+            background: transparent
+            tr
+                display: flex
+                flex-direction: column
+                td
+                    height: 6rem
+                    width: 10rem
+                &:nth-child(even)
+                    background: transparent
+                    td
+                        background: #DEDEDE
+                &:nth-child(odd)
+                    td
+                        background: #F2F2F2

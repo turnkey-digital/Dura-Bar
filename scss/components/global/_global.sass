@@ -3,6 +3,7 @@ $transition-timing: 500ms
 $hover-opacity: .5
 
 // Tweaking Defults
+  // Buttons
 .hollow
   color: $white !important
   border-color: $white !important
@@ -24,6 +25,18 @@ $hover-opacity: .5
   &:hover
     background-color: $secondary-color
 
+  // Table
+td 
+  border: 2px solid white !important
+  transition: $transition-timing
+tr
+  transition: $transition-timing
+  &:hover
+    td
+      color: $white !important
+th
+  border: 2px solid white  
+
 // Global Interactions
 a
   transition: $transition-timing
@@ -41,17 +54,9 @@ a
 // Additional classes
 .hidden
   display: none
-.call-out
-  position: relative
-.call-out-card
-  position: absolute
-  bottom: 0
-  background: $primary-color
-  width: 100%
-  padding: 1rem
-  text-align: center
-  color: white
-
+  
+.image-margin
+  margin-bottom: 1rem
 
   // Type
 .more-about-link

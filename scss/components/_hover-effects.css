@@ -5,7 +5,7 @@
   }
   img.zoom-out {
     transition: 500ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   img.zoom-out:hover {
       transform: scale(1);
@@ -101,11 +101,11 @@
     }
 
     /* Grayscale Styles */
-    img.grayscale {
+    .grayscale {
       transition: 500ms;
       filter:grayscale(0%);
     }
-    img.grayscale:hover {
+    .grayscale:hover img {
       filter:grayscale(100%);
     }
 
