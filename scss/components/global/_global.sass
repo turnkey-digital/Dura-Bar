@@ -28,14 +28,28 @@ $hover-opacity: .5
   // Table
 td 
   border: 2px solid white !important
-  transition: $transition-timing
-tr
-  transition: $transition-timing
-  &:hover
-    td
-      color: $white !important
 th
   border: 2px solid white  
+
+  // Forms
+input 
+  border-color: $black !important
+  &::-webkit-input-placeholder
+    color: #999
+
+textarea 
+  border-color: $black !important
+  &::-webkit-input-placeholder
+    color: #999
+
+legend
+  font-style: italic
+  font-size: 1.1rem
+  padding-left: 1.75rem
+fieldset
+    &>:nth-child(2)
+      &>label
+        font-weight: bold
 
 // Global Interactions
 a
@@ -57,6 +71,8 @@ a
   
 .image-margin
   margin-bottom: 1rem
+.link-unset
+  color: unset
 
   // Type
 .more-about-link

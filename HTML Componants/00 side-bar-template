@@ -2,224 +2,286 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Dura-Bar Metal Services</title>
-    <link rel="shortcut icon" type="image/png" href="../images/favi.png" />
-    <link rel="stylesheet" href="../css/app.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dura-Bar | Metal Services</title>
+  <link rel="shortcut icon" type="image/png" href="../../../images/favi.png" />
+  <link rel="stylesheet" href="../../../css/app.css">
 </head>
 
 <body>
-    <!-- START OF HEADER -->
-    <div class="grid-container">
-        <div class="top-bar">
-            <!-- Left Half -->
-            <div class="top-bar-left">
-                <a href="../">
-                    <img class="logo" src="../images/logo.png" alt="Dura-Bar Metal Services Logo">
-                </a>
-                <!-- Search -->
+  <!-- START OF HEADER -->
+  <div class="grid-container">
+    <!-- start of top bar -->
+    <div class="top-bar">
 
-                <div class="search-bar-conatiner">
-                    <!-- <div id="search-bar-mobile" class="hidden" data-toggler data-animate="hinge-in-from-top slide-out-up fast"> -->
-                    <div id="search-bar-mobile" class="hiding">
-                        <input class="input-group-field" type="text" placeholder="Search">
-                        <input type="submit" class="button" value="Submit">
-                    </div>
-                </div>
-            </div>
-            <!-- Right Half -->
-            <div class="top-bar-right">
-                <!-- Medium & Up -->
-                <div class="grid-y hide-for-small-only">
-                    <!-- top section -->
-                    <div class="cell small-3">
-                        <ul class="menu align-right simple">
-                            <li><a href="#">Request a Quote</a></li>
-                            <li><span>|</span></li>
-                            <li><a href="#">Contact Info</a></li>
-                            <li><span>|</span></li>
-                            <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
-                        </ul>
-                    </div>
-                    <!-- middle section -->
-                    <div class="cell small-3 grid-padding-y">
-                        <form>
-                            <label for="search" class="hidden">Input Label
-                            </label>
-                            <input id="search" type="text" placeholder="">
-                            <input type="submit" class="button expanded hollow" value="Search">
-                        </form>
-                    </div>
-                    <!-- bottom section -->
-                    <div class="cell small-6">
-                        <ul class="menu align-right simple main-nav">
-                            <li><a href="../products.html">PRODUCTS</a></li>
-                            <li><a href="../services.html">SERVICES</a></li>
-                            <li><a href="../locations.html">LOCATIONS</a></li>
-                            <li><a href="../industries.html">INDUSTRIES</a></li>
-                            <li><a href="../resources.html">RESOURCES</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Navigation -->
-        <div class="hide-for-medium text-right">
-            <!-- Hamberger -->
-            <div class="hamburger hamburger--collapse" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </div>
-            <!-- Search ICON -->
-            <div class="search-button" type="button" data-toggle="search-bar-mobile">
-                <span class="search-button-box">
-                    <span class="search-button-toggle"><i class="fi-magnifying-glass"></i></span>
-                </span>
-            </div>
-            <!-- Actuall Menu -->
-            <div id="mobile-nav" class="mobile-nav-hidden text-left" data-toggler="mobile-nav-hidden">
-                <ul class="vertical menu" data-responsive-menu="drilldown">
-                    <!-- START OF PRODUCTS -->
-                    <li><a href="#">Products</a>
-                        <ul class="vertical menu">
-                            <!-- All Products -->
-                            <li><a href="../products.html">Products</a></li>
-                            <!-- Dura Bar -->
-                            <li><a href="../products/dura-bar.html">Dura Bar</a>
-                                <ul class="vertical menu">
-                                    <!-- All Products -->
-                                    <li><a href="../products/dura-bar.html">Dura Bar</a></li>
-                                    <!-- Ductile Iron -->
-                                    <li><a href="./products/dura-bar/ductile-iron.html">Ductile Iron</a>
-                                        <ul class="vertical menu">
-                                            <li><a href="#">Ductile Iron</a></li>
-                                            <li><a href="#">65-45-12 Ferritic Ductile Iron</a></li>
-                                            <li><a href="#">65-45-12X Ferritic Ductile Iron</a></li>
-                                            <li><a href="#">80-55-06 Pearlitic Ductile Iron</a></li>
-                                            <li><a href="#">80-55-06X Pearlitic Ductile Iron</a></li>
-                                            <li><a href="#">60-40-18 <span class="dotDot">•</span></a></li>
-                                            <li><a href="#">100-70-03 <span class="dotDot">•</span></a></li>
-                                            <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For
-                                                Non-Stock Grades - Contact
-                                                your Dura-Bar MS
-                                                Representative</li>
-                                        </ul>
-                                    </li>
-                                    <!-- Gray Iron -->
-                                    <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a>
-                                        <ul class="vertical menu">
-                                            <li><a href="#">G2 Highly Pearlitic Gray Iron</a></li>
-                                            <li><a href="#">G2P Highly Pearlitic Gray Iron</a></li>
-                                            <li><a href="#">G2S</a></li>
-                                            <li><a href="#">G2A <span class="dotDot">•</span></a></li>
-                                            <li><a href="#">G1A <span class="dotDot">•</span></a></li>
-                                            <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For
-                                                Non-Stock Grades - Contact
-                                                your Dura-Bar MS
-                                                Representative</li>
-                                        </ul>
-                                    </li>
-                                    <!-- Ni-Reist -->
-                                    <li><a href="./products/dura-bar/ni-resist.html">Ni-Resist Iron</a>
-                                        <ul class="vertical menu">
-                                            <li><a>Ni-Reist</a></li>
-                                            <li><a href="#">201 Type 1 Gray Iron Ni-Resist</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Zero Defect -->
-                                    <li><a href="./products/dura-bar/zero-defect-guarantee.html">Zero Defect Guarantee</a></li>
-                                    <!-- Advantages -->
-                                    <li><a href="./products/dura-bar/dura-bar-advantages.html">Dura-Bar Advantages</a></li>
-                                    <!-- END OF DURA BAR -->
+      <!-- start of left-half -->
+      <div class="top-bar-left">
+        <!-- Logo -->
+        <a href="../../../">
+          <img class="logo" src="../../../images/logo.png" alt="Dura-Bar Metal Services Logo">
+        </a>
 
-                                </ul>
-                            </li>
-                            <!-- Bronze -->
-                            <li><a href="#">Bronze</a>
-                                <ul class="vertical menu">
-                                    <li><a href="#">Bronze</a></li>
-                                    <!-- Wrought / Extruded -->
-                                    <li><a href="#">Wrought / Extruded</a>
-                                        <ul class="vertical menu">
-                                            <li><a href="#">Wrought / Extruded</a></li>
-                                            <li><a href="#">C31400 Leaded Commercial Bronze</a></li>
-                                            <li><a href="#">C51000 Phosphor Bronze 5% A</a></li>
-                                            <li><a href="#">C54400 Phosphor Bronze B-2</a></li>
-                                            <li><a href="#">C63020 - Aluminum Bronze ( AMS 4590)</a></li>
-                                            <li><a href="#">C64200 Aluminum Bronze</a></li>
-                                            <li><a href="#">C67300 Manganese Bronze</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Continuous Cast Bronze -->
-                                    <li><a href="#">Continuous Cast Bronze</a>
-                                        <ul class="vertical menu">
-                                            <li><a href="#">Continuous Cast Bronze</a></li>
-                                            <li><a href="#">C86300 Manganese Bronze</a></li>
-                                            <li><a href="#">C89835 Bismuth Tin Bronze</a></li>
-                                            <li><a href="#">C90300 Tin Bronze (SAE620)</a></li>
-                                            <li><a href="#">C95400 Aluminum Bronze (9C)</a></li>
-                                            <li><a href="#">C95500 Nickel Aluminum Bronze</a></li>
-                                            <li><a href="#">C95510 - Nickel Aluminum Bronze (AMS 4880)</a></li>
-                                            <li><a href="#">C95900 Aluminum Bronze</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Bronze Advantages</a>
-                                    </li>
-                                </ul>
-                                <!-- END OF BRONZE -->
-                            </li>
-                        </ul>
-                        <!-- END OF PRODUCTS -->
-                    </li>
-                    <!-- START OF SERVICES -->
-                    <li><a href="#">Services</a>
-                        <ul class="vertical menu">
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Metal Cutting</a></li>
-                            <li><a href="#">Drilling and Turning</a></li>
-                            <li><a href="#">Milling</a></li>
-                            <li><a href="#">Trepanning</a></li>
-                        </ul>
-                        <!-- END OF SERVICES -->
-                    </li>
-                    <li><a href="#">Locations</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <!-- START OF RESOURCES -->
-                    <li><a href="#">Resources</a>
-                        <ul class="vertical menu">
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Resource Guides</a></li>
-                            <li><a href="#">Size Schedules</a></li>
-                            <li><a href="#">SDS</a></li>
-                            <li><a href="#">Additional Resources</a></li>
-                        </ul>
-                        <!-- END OF RESOURCES -->
-                    </li>
-                    <li><a href="#">About Us</a></li>
-                    <!-- <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Request a Quote</a></li> -->
-                </ul>
-            </div>
+        <!-- Start of mobile search -->
+        <!-- search toggle -->
+        <div class="search-button hide-for-medium" type="button" data-toggle="search-bar-mobile">
+          <span class="search-button-box">
+            <span class="search-button-toggle"><i class="fi-magnifying-glass"></i></span>
+          </span>
         </div>
-        <div class="hide-for-medium mobile-bottom-bar">
-            <!-- Bottom Bar -->
-            <ul class="menu align-center simple">
-                <li><a href="#">Request a Quote</a></li>
-                <li><span>|</span></li>
-                <li><a href="#">Contact Info</a></li>
-                <li><span>|</span></li>
-                <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+        <!-- Mobile Search -->
+        <div class="search-bar-conatiner">
+          <div id="search-bar-mobile" class="hiding">
+            <input class="input-group-field" type="text" placeholder="Search">
+            <input type="submit" class="button" value="">
+          </div>
+        </div>
+        <!-- End of mobile seach -->
+      </div>
+      <!-- end of left half -->
+
+      <!-- start of right half -->
+      <div class="top-bar-right">
+
+        <!-- medium & up -->
+        <div class="grid-y hide-for-small-only">
+          <!-- top section -->
+          <div class="cell small-3">
+            <ul class="menu align-right simple">
+              <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
+              <li><span>|</span></li>
+              <li><a href="../../../contact.html">Contact Info</a></li>
+              <li><span>|</span></li>
+              <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
             </ul>
+          </div>
+          <!-- middle section -->
+          <div class="cell small-3 grid-padding-y">
+            <form>
+              <label for="search" class="hidden">Input Label
+              </label>
+              <input id="search" type="text" placeholder="">
+              <input type="submit" class="button expanded hollow" value="Search">
+            </form>
+          </div>
+          <!-- bottom section -->
+          <div class="cell small-6">
+            <ul class="menu align-right simple main-nav">
+              <li><a href="../../../products.html">PRODUCTS</a></li>
+              <li><a href="../../../services.html">SERVICES</a></li>
+              <li><a href="../../../locations.html">LOCATIONS</a></li>
+              <li><a href="../../../industries.html">INDUSTRIES</a></li>
+              <li><a href="../../../resources.html">RESOURCES</a></li>
+            </ul>
+          </div>
         </div>
+        <!-- end of medium -->
+
+      </div>
+      <!-- end of right half -->
+
     </div>
-    <!-- END OF HEADER -->
-    <!-- Page Sepperator -->
-    <div class="grid-container hide-for-small-only full">
-        <img src="../images/sub-page-haeder.png" alt="">
+    <!-- end of top bar -->
+
+    <!-- start of mobile -->
+    <div class="hide-for-medium text-right">
+
+      <!-- hamburger toggle -->
+      <div class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </div>
+
+      <!-- start of mobile navigation -->
+      <div id="mobile-nav" class="mobile-nav-hidden text-left">
+        <!-- Mobile Menu Container -->
+        <ul class="vertical menu" data-responsive-menu="drilldown">
+          <!-- 00 Products -->
+          <li><a href="#">Products</a>
+            <ul class="vertical menu">
+              <!-- 01 Products -->
+              <li><a href="./products.html">Products</a></li>
+              <!-- 01 Dura-Bar -->
+              <li><a href="./products/dura-bar.html">Dura-Bar</a>
+                <ul class="vertical menu">
+                  <!-- 02 Dura-Bar -->
+                  <li><a href="./products/dura-bar.html">Dura-Bar</a></li>
+                  <!-- 02 Ductile Iron -->
+                  <li><a href="./products/dura-bar/ductile-iron.html">Ductile Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Ductile Iron -->
+                      <li><a href="../../../products/dura-bar/ductile-iron.html">Ductile Iron</a></li>
+                      <!-- 03 65-45-12 -->
+                      <li><a href="../../../products/dura-bar/ductile-iron/65-45-12.html">65-45-12</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">65-45-12X</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">80-55-06</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">80-55-06X</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">60-40-18 <span class="dotDot">•</span></a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">100-70-03 <span class="dotDot">•</span></a></li>
+                      <!-- 03 Call Out Inforrmation -->
+                      <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact
+                        your Dura-Bar MS Representative</li>
+                    </ul>
+                  </li>
+                  <!-- 02 Gray Iron -->
+                  <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Gray Iron -->
+                      <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2P</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2S</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2A <span class="dotDot">•</span></a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G1A <span class="dotDot">•</span></a></li>
+                      <!-- 03 Call Our Informatino -->
+                      <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact
+                        your Dura-Bar MS Representative</li>
+                    </ul>
+                  </li>
+                  <!-- 02 Ni-Reist -->
+                  <li><a href="./products/dura-bar/ni-resist.html">Ni-Resist Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Ni-Reist -->
+                      <li><a>Ni-Reist</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">201 Type 1</a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Zero Defect -->
+                  <li><a href="./products/dura-bar/zero-defect-guarantee.html">Zero Defect Guarantee</a></li>
+                  <!-- 02 Advantages -->
+                  <li><a href="./products/dura-bar/dura-bar-advantages.html">Dura-Bar Advantages</a></li>
+                </ul>
+              </li>
+              <!-- 01 Bronze -->
+              <li><a href="#">Bronze</a>
+                <ul class="vertical menu">
+                  <!-- 02 Bronze -->
+                  <li><a href="#">Bronze</a></li>
+                  <!-- 02 Wrought -->
+                  <li><a href="#">Wrought</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Wrought -->
+                      <li><a href="#">Wrought</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C31400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C51000 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C54400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">AMS 4590 C63020</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C64200 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C67300 </a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Continuous Cast Bronze -->
+                  <li><a href="#">Continuous Cast Bronze</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Continuous Cast Bronze -->
+                      <li><a href="#">Continuous Cast Bronze</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C86300 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C89835 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C90300 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95500 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">AMS 4880 C95510 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95900 </a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Bronze Advantages -->
+                  <li><a href="#">Bronze Advantages</a>
+                  </li>
+                </ul>
+                <!-- END OF BRONZE -->
+              </li>
+            </ul>
+            <!-- END OF PRODUCTS -->
+          </li>
+          <!-- 00 Services -->
+          <li><a href="#">Services</a>
+            <ul class="vertical menu">
+              <!-- 01 Services -->
+              <li><a href="#">Services</a></li>
+              <!-- 01 Metal Cutting -->
+              <li><a href="#">Metal Cutting</a></li>
+              <!-- 01 Drilling -->
+              <li><a href="#">Drilling and Turning</a></li>
+              <!-- 01 Milling -->
+              <li><a href="#">Milling</a></li>
+              <!-- 01 Trepanning -->
+              <li><a href="#">Trepanning</a></li>
+            </ul>
+            <!-- END OF SERVICES -->
+          </li>
+          <!-- 00 Locations -->
+          <li><a href="../../../locations.html">Locations</a></li>
+          <!-- 00 Industries -->
+          <li><a href="#">Industries</a></li>
+          <!-- 00 Resources -->
+          <li><a href="#">Resources</a>
+            <ul class="vertical menu">
+              <!-- 01 Resources -->
+              <li><a href="#">Resources</a></li>
+              <!-- 01 Resource Guides -->
+              <li><a href="#">Resource Guides</a></li>
+              <!-- 01 Size Schedules -->
+              <li><a href="#">Size Schedules</a></li>
+              <!-- 01 SDS -->
+              <li><a href="#">SDS</a></li>
+              <!-- 01 Additional Resources -->
+              <li><a href="#">Additional Resources</a></li>
+            </ul>
+            <!-- END OF RESOURCES -->
+          </li>
+          <!-- 00 About Us -->
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <!-- end of mobile navigation -->
+
     </div>
+
+    <!-- mobile cta bar -->
+    <div class="hide-for-medium mobile-bottom-bar">
+      <ul class="menu align-center simple">
+        <li><a href="#">Request a Quote</a></li>
+        <li><span>|</span></li>
+        <li><a href="#">Contact Info</a></li>
+        <li><span>|</span></li>
+        <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+      </ul>
+    </div>
+    <!-- end of mobile -->
+  </div>
+  <!-- END OF HEADER -->
+
+  <!-- START OF PAGE SEPPERATOR -->
+  <div class="grid-container hide-for-small-only full">
+    <img src="../images/sub-page-haeder.png" alt="">
+  </div>
+  <!-- END OF PAGE SEPPERATOR -->
     <!-- Bread Crumbs -->
     <div class="grid-container hide-for-small-only">
         <nav role="navigation" class="bread-crumbs menu simple">

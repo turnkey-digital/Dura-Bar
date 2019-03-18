@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Dura-Bar Metal Services</title>
+    <title>Dura-Bar | Metal Services</title>
     <link rel="shortcut icon" type="image/png" href="../../../images/favi.png" />
     <link rel="stylesheet" href="../../../css/app.css">
 </head>
@@ -13,32 +13,45 @@
 <body>
     <!-- START OF HEADER -->
     <div class="grid-container">
+        <!-- start of top bar -->
         <div class="top-bar">
-            <!-- Left Half -->
+
+            <!-- start of left-half -->
             <div class="top-bar-left">
+                <!-- Logo -->
                 <a href="../../../">
                     <img class="logo" src="../../../images/logo.png" alt="Dura-Bar Metal Services Logo">
                 </a>
-                <!-- Search -->
 
+                <!-- Start of mobile search -->
+                <!-- search toggle -->
+                <div class="search-button hide-for-medium" type="button" data-toggle="search-bar-mobile">
+                    <span class="search-button-box">
+                        <span class="search-button-toggle"><i class="fi-magnifying-glass"></i></span>
+                    </span>
+                </div>
+                <!-- Mobile Search -->
                 <div class="search-bar-conatiner">
-                    <!-- <div id="search-bar-mobile" class="hidden" data-toggler data-animate="hinge-in-from-top slide-out-up fast"> -->
                     <div id="search-bar-mobile" class="hiding">
                         <input class="input-group-field" type="text" placeholder="Search">
                         <input type="submit" class="button" value="">
                     </div>
                 </div>
+                <!-- End of mobile seach -->
             </div>
-            <!-- Right Half -->
+            <!-- end of left half -->
+
+            <!-- start of right half -->
             <div class="top-bar-right">
-                <!-- Medium & Up -->
+
+                <!-- medium & up -->
                 <div class="grid-y hide-for-small-only">
                     <!-- top section -->
                     <div class="cell small-3">
                         <ul class="menu align-right simple">
-                            <li><a href="#">Request a Quote</a></li>
+                            <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
                             <li><span>|</span></li>
-                            <li><a href="#">Contact Info</a></li>
+                            <li><a href="../../../contact.html">Contact Info</a></li>
                             <li><span>|</span></li>
                             <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
                         </ul>
@@ -63,109 +76,148 @@
                         </ul>
                     </div>
                 </div>
+                <!-- end of medium -->
+
             </div>
+            <!-- end of right half -->
+
         </div>
-        <!-- Mobile Navigation -->
+        <!-- end of top bar -->
+
+        <!-- start of mobile -->
         <div class="hide-for-medium text-right">
-            <!-- Hamberger -->
+
+            <!-- hamburger toggle -->
             <div class="hamburger hamburger--collapse" type="button">
                 <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
                 </span>
             </div>
-            <!-- Search ICON -->
-            <div class="search-button" type="button" data-toggle="search-bar-mobile">
-                <span class="search-button-box">
-                    <span class="search-button-toggle"><i class="fi-magnifying-glass"></i></span>
-                </span>
-            </div>
-            <!-- Actuall Menu -->
-            <div id="mobile-nav" class="mobile-nav-hidden text-left" data-toggler="mobile-nav-hidden">
+
+            <!-- start of mobile navigation -->
+            <div id="mobile-nav" class="mobile-nav-hidden text-left">
+                <!-- Mobile Menu Container -->
                 <ul class="vertical menu" data-responsive-menu="drilldown">
-                    <!-- START OF PRODUCTS -->
+                    <!-- 00 Products -->
                     <li><a href="#">Products</a>
                         <ul class="vertical menu">
-                            <!-- All Products -->
-                            <li><a href="../../../products.html">Products</a></li>
-                            <!-- Dura Bar -->
-                            <li><a href="../../../products/dura-bar.html">Dura Bar</a>
+                            <!-- 01 Products -->
+                            <li><a href="./products.html">Products</a></li>
+                            <!-- 01 Dura-Bar -->
+                            <li><a href="./products/dura-bar.html">Dura-Bar</a>
                                 <ul class="vertical menu">
-                                    <!-- All Products -->
-                                    <li><a href="../../../products/dura-bar.html">Dura Bar</a></li>
-                                    <!-- Ductile Iron -->
+                                    <!-- 02 Dura-Bar -->
+                                    <li><a href="./products/dura-bar.html">Dura-Bar</a></li>
+                                    <!-- 02 Ductile Iron -->
                                     <li><a href="./products/dura-bar/ductile-iron.html">Ductile Iron</a>
                                         <ul class="vertical menu">
-                                            <li><a href="../../../products/dura-bar/ductile-iron.html">Ductile Iron</a></li>
-                                            <li><a href="../../../products/dura-bar/ductile-iron/65-45-12.html">65-45-12</a></li>
+                                            <!-- 03 Ductile Iron -->
+                                            <li><a href="../../../products/dura-bar/ductile-iron.html">Ductile Iron</a>
+                                            </li>
+                                            <!-- 03 65-45-12 -->
+                                            <li><a
+                                                    href="../../../products/dura-bar/ductile-iron/65-45-12.html">65-45-12</a>
+                                            </li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">65-45-12X</a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">80-55-06</a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">80-55-06X</a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">60-40-18 <span class="dotDot">•</span></a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">100-70-03 <span class="dotDot">•</span></a></li>
+                                            <!-- 03 Call Out Inforrmation -->
                                             <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For
                                                 Non-Stock Grades - Contact
-                                                your Dura-Bar MS
-                                                Representative</li>
+                                                your Dura-Bar MS Representative</li>
                                         </ul>
                                     </li>
-                                    <!-- Gray Iron -->
+                                    <!-- 02 Gray Iron -->
                                     <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a>
                                         <ul class="vertical menu">
-                                            <li><a href="#">G2 Highly Pearlitic Gray Iron</a></li>
-                                            <li><a href="#">G2P Highly Pearlitic Gray Iron</a></li>
+                                            <!-- 03 Gray Iron -->
+                                            <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a></li>
+                                            <!-- 03 Product Name -->
+                                            <li><a href="#">G2</a></li>
+                                            <!-- 03 Product Name -->
+                                            <li><a href="#">G2P</a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">G2S</a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">G2A <span class="dotDot">•</span></a></li>
+                                            <!-- 03 Product Name -->
                                             <li><a href="#">G1A <span class="dotDot">•</span></a></li>
+                                            <!-- 03 Call Our Informatino -->
                                             <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For
                                                 Non-Stock Grades - Contact
-                                                your Dura-Bar MS
-                                                Representative</li>
+                                                your Dura-Bar MS Representative</li>
                                         </ul>
                                     </li>
-                                    <!-- Ni-Reist -->
+                                    <!-- 02 Ni-Reist -->
                                     <li><a href="./products/dura-bar/ni-resist.html">Ni-Resist Iron</a>
                                         <ul class="vertical menu">
+                                            <!-- 03 Ni-Reist -->
                                             <li><a>Ni-Reist</a></li>
-                                            <li><a href="#">201 Type 1 Gray Iron Ni-Resist</a></li>
+                                            <!-- 03 Product Name -->
+                                            <li><a href="#">201 Type 1</a></li>
                                         </ul>
                                     </li>
-                                    <!-- Zero Defect -->
-                                    <li><a href="./products/dura-bar/zero-defect-guarantee.html">Zero Defect Guarantee</a></li>
-                                    <!-- Advantages -->
-                                    <li><a href="./products/dura-bar/dura-bar-advantages.html">Dura-Bar Advantages</a></li>
-                                    <!-- END OF DURA BAR -->
-
+                                    <!-- 02 Zero Defect -->
+                                    <li><a href="./products/dura-bar/zero-defect-guarantee.html">Zero Defect
+                                            Guarantee</a></li>
+                                    <!-- 02 Advantages -->
+                                    <li><a href="./products/dura-bar/dura-bar-advantages.html">Dura-Bar Advantages</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <!-- Bronze -->
+                            <!-- 01 Bronze -->
                             <li><a href="#">Bronze</a>
                                 <ul class="vertical menu">
+                                    <!-- 02 Bronze -->
                                     <li><a href="#">Bronze</a></li>
-                                    <!-- Wrought / Extruded -->
-                                    <li><a href="#">Wrought / Extruded</a>
+                                    <!-- 02 Wrought -->
+                                    <li><a href="#">Wrought</a>
                                         <ul class="vertical menu">
-                                            <li><a href="#">Wrought / Extruded</a></li>
-                                            <li><a href="#">C31400 Leaded Commercial Bronze</a></li>
-                                            <li><a href="#">C51000 Phosphor Bronze 5% A</a></li>
-                                            <li><a href="#">C54400 Phosphor Bronze B-2</a></li>
-                                            <li><a href="#">C63020 - Aluminum Bronze ( AMS 4590)</a></li>
-                                            <li><a href="#">C64200 Aluminum Bronze</a></li>
-                                            <li><a href="#">C67300 Manganese Bronze</a></li>
+                                            <!-- 03 Wrought -->
+                                            <li><a href="#">Wrought</a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C31400 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C51000 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C54400 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">AMS 4590 C63020</a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C64200 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C67300 </a></li>
                                         </ul>
                                     </li>
-                                    <!-- Continuous Cast Bronze -->
+                                    <!-- 02 Continuous Cast Bronze -->
                                     <li><a href="#">Continuous Cast Bronze</a>
                                         <ul class="vertical menu">
+                                            <!-- 03 Continuous Cast Bronze -->
                                             <li><a href="#">Continuous Cast Bronze</a></li>
-                                            <li><a href="#">C86300 Manganese Bronze</a></li>
-                                            <li><a href="#">C89835 Bismuth Tin Bronze</a></li>
-                                            <li><a href="#">C90300 Tin Bronze (SAE620)</a></li>
-                                            <li><a href="#">C95400 Aluminum Bronze (9C)</a></li>
-                                            <li><a href="#">C95500 Nickel Aluminum Bronze</a></li>
-                                            <li><a href="#">C95510 - Nickel Aluminum Bronze (AMS 4880)</a></li>
-                                            <li><a href="#">C95900 Aluminum Bronze</a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C86300 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C89835 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C90300 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C95400 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C95500 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">AMS 4880 C95510 </a></li>
+                                            <!-- 03 Product Title -->
+                                            <li><a href="#">C95900 </a></li>
                                         </ul>
                                     </li>
+                                    <!-- 02 Bronze Advantages -->
                                     <li><a href="#">Bronze Advantages</a>
                                     </li>
                                 </ul>
@@ -174,53 +226,71 @@
                         </ul>
                         <!-- END OF PRODUCTS -->
                     </li>
-                    <!-- START OF SERVICES -->
+                    <!-- 00 Services -->
                     <li><a href="#">Services</a>
                         <ul class="vertical menu">
+                            <!-- 01 Services -->
                             <li><a href="#">Services</a></li>
+                            <!-- 01 Metal Cutting -->
                             <li><a href="#">Metal Cutting</a></li>
+                            <!-- 01 Drilling -->
                             <li><a href="#">Drilling and Turning</a></li>
+                            <!-- 01 Milling -->
                             <li><a href="#">Milling</a></li>
+                            <!-- 01 Trepanning -->
                             <li><a href="#">Trepanning</a></li>
                         </ul>
                         <!-- END OF SERVICES -->
                     </li>
-                    <li><a href="#">Locations</a></li>
+                    <!-- 00 Locations -->
+                    <li><a href="../../../locations.html">Locations</a></li>
+                    <!-- 00 Industries -->
                     <li><a href="#">Industries</a></li>
-                    <!-- START OF RESOURCES -->
+                    <!-- 00 Resources -->
                     <li><a href="#">Resources</a>
                         <ul class="vertical menu">
+                            <!-- 01 Resources -->
                             <li><a href="#">Resources</a></li>
+                            <!-- 01 Resource Guides -->
                             <li><a href="#">Resource Guides</a></li>
+                            <!-- 01 Size Schedules -->
                             <li><a href="#">Size Schedules</a></li>
+                            <!-- 01 SDS -->
                             <li><a href="#">SDS</a></li>
+                            <!-- 01 Additional Resources -->
                             <li><a href="#">Additional Resources</a></li>
                         </ul>
                         <!-- END OF RESOURCES -->
                     </li>
+                    <!-- 00 About Us -->
                     <li><a href="#">About Us</a></li>
-                    <!-- <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Request a Quote</a></li> -->
                 </ul>
             </div>
+            <!-- end of mobile navigation -->
+
         </div>
+
+        <!-- mobile cta bar -->
         <div class="hide-for-medium mobile-bottom-bar">
-            <!-- Bottom Bar -->
             <ul class="menu align-center simple">
-                <li><a href="#">Request a Quote</a></li>
+                <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
                 <li><span>|</span></li>
-                <li><a href="#">Contact Info</a></li>
+                <li><a href="../../../contat.html">Contact Info</a></li>
                 <li><span>|</span></li>
                 <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
             </ul>
         </div>
+        <!-- end of mobile -->
     </div>
     <!-- END OF HEADER -->
-    <!-- Page Sepperator -->
+
+    <!-- START OF PAGE SEPPERATOR -->
     <div class="grid-container hide-for-small-only full">
         <img src="../../../images/sub-page-haeder.png" alt="">
     </div>
-    <!-- Bread Crumbs -->
+    <!-- END OF PAGE SEPPERATOR -->
+
+    <!-- START OF BREAD CRUMBS -->
     <div class="grid-container hide-for-small-only">
         <nav role="navigation" class="bread-crumbs menu simple">
             <ol itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Breadcrumb Navigation">
@@ -261,8 +331,7 @@
             </ol>
         </nav>
     </div>
-
-    <!-- END OF HEADER -->
+    <!-- END OF BREAD CRUMBS -->
 
     <!-- START OF BODY -->
     <div class="grid-container row">
@@ -274,147 +343,203 @@
                 <br class="hide-for-medium">
             </div>
             <!-- START OF MAIN CONTENT -->
-            <div class="cell small-12 medium-9 grid-x grid-padding-y ">
+            <div class="cell medium-9">
                 <!-- interaction Paragraph -->
-                <div class="cell small-12 grid-x grid-padding-x grid-container full">
+                <div class="grid-x grid-padding-x grid-padding-y">
                     <div class="cell small-12 medium-6">
                         <p>Dura-Bar 65-45-12 ductile iron contains nodular graphite in a matrix of ferrite with small amounts of pearlite. Our most popular Dura-Bar grade, 65-45-12 ductile iron has excellent machinability with good surface ﬁnishes, optimal impact strengths, fatigue properties, electrical conductivity and high magnetic permeability. This iron has approximately the same tensile and yield strengths as AISI 1020 steel in the as-rolled condition. This speciﬁcation conforms to ASTM A536 grade 65-45-12.</p>
                     </div>
                     <div class="cell small-12 medium-6">
                         <img src="../../../images/products/dura-bar/ductile-iron/ductile-iron.jpg" alt="">
                     </div>
-                    </div>
-                <!-- Line -->
-                <div class="cell small-12">
-                    <hr>
                 </div>
+                <!-- Line -->
+                    <hr>
                 <!-- Typical Application -->
-                <div class="cell small-12">
-                    <H3>Typical Applications:</H3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                    lobortis nisl ut.</p>
-                    <div class=" table-scroll">
-                        <table class="hover">
-                            <thead>
-                                <tr>
-                                    <th>Shape</th>
-                                    <th width="150">Sizes</th>
-                                    <th>Stock Allowance</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Rounds</td>
-                                    <td>0.625” to 26.560”</td>
-                                    <td>As-cast round bars are made to clean up at the nominal size. Additional stock is added to allow for out-of-round and normal imperfections in the as-cast surface</td>
-                                </tr>
-                                <tr>
-                                    <td>Rectangles</td>
-                                    <td>xxxxxx</td>
-                                    <td>As-cast rectangles are made to the actual size with no allowance for machine stock added. Rectangles are cast to actual dimension, with clean up stock dependent on the height and width ratio.</td>
-                                </tr>
-                                <tr>
-                                    <td>Squares</td>
-                                    <td>xxxxx to xxxxx</td>
-                                    <td>As-cast squares are made to the actual size with no allowance for machine stock added. Squares are cast to actual dimension, with clean up stock dependent on the height and width ratio.</td>
-                                </tr>
-                                <tr>
-                                    <td>Tubes</td>
-                                    <td>1.500 x 3.500 to 7.000 x 9.000</td>
-                                    <td>Tubes are stocked in 72” lengths and are available by either trepan process or continuous cast. See Dura-Tube product information for O.D. and I.D. speciﬁcation</td>
-                                </tr>
-                                <tr>
-                                    <td>Cut-to-length</td>
-                                    <td>See Art’s input</td>
-                                    <td>*For more stock allowance detail - link to page/PDF</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <!-- Line -->
-                <div class="cell small-12">
-                    <hr>
-                </div>
-                <!-- Micro -->
-                <div class="cell small-12">
-                    <h3>Microstructure</h3>
-                    <p>The microstructure consists of Types I & II nodular graphite as deﬁned in ASTM A247. The matrix is ferrite with approximately 5-25% pearlite. The "rim" will have a higher nodular count and will be mostly ferrite. Chill carbides will be less than 5% in any ﬁeld at 100x and will be well dispersed.</p>
-                    <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/micro-structure.jpg" alt="">
-                    <h4>Chemical Composition</h4>
-                    <div class=" table-scroll">
-                        <table class="hover">
-                            <thead>
-                                <tr>
-                                    <th>Element</th>
-                                    <th>Percentage</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Carbon*</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon*</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>Sulfur</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>Phosphorus</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <!-- Line -->
-                <div class="cell small-12">
-                    <hr>
-                </div>
-                <!-- Mechanical Properties -->
-                <div class="small-12">
-                    <H3>Mechanical Properties</H3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut.</p>
-                    <h1>COMING BACK</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                    lobortis nisl ut.</p>
-                    <table class="hover">
+                <H3>Typical Applications:</H3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                lobortis nisl ut.</p>
+                <div class=" table-scroll">
+                    <table >
+                        <thead>
+                            <tr>
+                                <th>Shape</th>
+                                <th width="150">Sizes</th>
+                                <th>Stock Allowance</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
-                                <td width="50%">Tensile Strength psi (min)</td>
-                                <td>&nbsp;</td>
+                                <td>Rounds</td>
+                                <td>0.625” to 26.560”</td>
+                                <td>As-cast round bars are made to clean up at the nominal size. Additional stock is added to allow for out-of-round and normal imperfections in the as-cast surface</td>
                             </tr>
                             <tr>
-                                <td>Yield Strength psi (min)</td>
-                                <td>&nbsp;</td>
+                                <td>Rectangles</td>
+                                <td>xxxxxx</td>
+                                <td>As-cast rectangles are made to the actual size with no allowance for machine stock added. Rectangles are cast to actual dimension, with clean up stock dependent on the height and width ratio.</td>
                             </tr>
                             <tr>
-                                <td>Elongation (min)</td>
-                                <td >&nbsp;</td>
+                                <td>Squares</td>
+                                <td>xxxxx to xxxxx</td>
+                                <td>As-cast squares are made to the actual size with no allowance for machine stock added. Squares are cast to actual dimension, with clean up stock dependent on the height and width ratio.</td>
+                            </tr>
+                            <tr>
+                                <td>Tubes</td>
+                                <td>1.500 x 3.500 to 7.000 x 9.000</td>
+                                <td>Tubes are stocked in 72” lengths and are available by either trepan process or continuous cast. See Dura-Tube product information for O.D. and I.D. speciﬁcation</td>
+                            </tr>
+                            <tr>
+                                <td>Cut-to-length</td>
+                                <td>See Art’s input</td>
+                                <td>*For more stock allowance detail - link to page/PDF</td>
                             </tr>
                         </tbody>
                     </table>
-                    <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/head-treat.jpg" alt="">
                 </div>
-                <div class="cell small-12">
+                <!-- Line -->
+                <hr>
+                <!-- Micro -->
+                <h3>Microstructure</h3>
+                <p>The microstructure consists of Types I & II nodular graphite as deﬁned in ASTM A247. The matrix is ferrite with approximately 5-25% pearlite. The "rim" will have a higher nodular count and will be mostly ferrite. Chill carbides will be less than 5% in any ﬁeld at 100x and will be well dispersed.</p>
+                <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/micro-structure.jpg" alt="">
+                <h4>Chemical Composition</h4>
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Carbon*</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Silicon*</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Manganese</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Sulfur</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Phosphorus</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Line -->
                     <hr>
+                <!-- Mechanical Properties -->
+                <H3>Mechanical Properties</H3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.</p>
+                <!-- Complex Table -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell medium-6">
+                        <h6>Size Range</h6>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Inches</th>
+                                    <th>Milli Metters</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0.625-0.750</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>0.751-1.500</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1.501-2.000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2.001-3.000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>3.001-6.000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>6.001-20.000</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cell medium-6">
+                        <h6>BHN</h6>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Inches</th>
+                                    <th>Milli Metters</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>229</td>
+                                    <td>301</td>
+                                </tr>
+                                <tr>
+                                    <td>207</td>
+                                    <td>285</td>
+                                </tr>
+                                <tr>
+                                    <td>207</td>
+                                    <td>277</td>
+                                </tr>
+                                <tr>
+                                    <td>207</td>
+                                    <td>269</td>
+                                </tr>
+                                <tr>
+                                    <td>197</td>
+                                    <td>269</td>
+                                </tr>
+                                <tr>
+                                    <td>183</td>
+                                    <td>269</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="small-12">
-                    <H3>Machining Guidelines</H3>
-                    <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/table.jpg" alt="">
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                lobortis nisl ut.</p>
+                <table >
+                    <tbody>
+                        <tr>
+                            <td width="50%">Tensile Strength psi (min)</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Yield Strength psi (min)</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Elongation (min)</td>
+                            <td >&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/head-treat.jpg" alt="">
+                <hr>
+                <H3>Machining Guidelines</H3>
+                <img class="image-margin" src="../../../images/products/dura-bar/ductile-iron/table.jpg" alt="">
             </div>
             <!-- END OF MAIN CONTENT -->
 
@@ -519,7 +644,7 @@ lobortis nisl ut.</p>
                     <li>For Non-Stock Grades and Allowys contact your Dura-Bar Mteal SErvices representative.</li>
                 </ul>
                 <!-- Request a quote -->
-                <a href="" class="button secondary expanded">Request a quote</a>
+                <a href="../../../request-a-quote.html" class="button secondary expanded">Request a quote</a>
             </div>
             <!-- END OF SIDEBAR -->
         </div>
@@ -534,7 +659,7 @@ lobortis nisl ut.</p>
         <!-- Call to action -->
         <div class="cell small-12 grid-x text-center">
             <div class="cell small-12 cta">
-                <h3>Call us today to discuss your application at 888-DURA-BAR (888.387.2227) or <a href="" class="request-a-quote-footer">Request
+                <h3>Call us today to discuss your application at <a href="tel:+1-888-387-2227">888-DURA-BAR (888.387.2227)</a> or <a href="../../../request-a-quote.html" class="request-a-quote-footer">Request
                         a Quote</a> online</h3>
                 <div class="cell auto"></div>
                 <div class="cell small-6">

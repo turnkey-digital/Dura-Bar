@@ -134,3 +134,11 @@ $('.search-button').click(function(){
     $('#search-bar-mobile').toggleClass('hiding');
 })
 // END OF MOBILE NAV
+
+// REFFER
+$(document).ready(function(){
+    oldURL = document.referrer;
+    lastURL = `Referring URL: ${oldURL} (Hidden to user)`
+
+    document.getElementById('referrer').value = lastURL;
+});
