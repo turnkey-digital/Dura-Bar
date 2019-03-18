@@ -132,6 +132,8 @@ $('.hamburger').click(function(){
 });
 $('.search-button').click(function(){
     $('#search-bar-mobile').toggleClass('hiding');
+    $('.search-button').toggleClass('active');
+    $('.search-button-toggle > i').toggleClass('fi-magnifying-glass').toggleClass('fi-x')
 })
 // END OF MOBILE NAV
 
