@@ -24,6 +24,9 @@ function sass() {
 
 function serve() {
   browserSync.init({
+    watch: false,
+    notify: false,
+    open: false,
     server: "./"
   });
 
