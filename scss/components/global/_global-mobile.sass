@@ -30,11 +30,12 @@
                     border: 1px solid white
                     height: 6rem
                     width: 10rem
-                    // justify-content: center
+                    display: flex
         tbody
             display: flex
             overflow-x: auto
             background: transparent
+            padding: 5px
             tr
                 display: flex
                 flex-direction: column
@@ -48,3 +49,5 @@
                 &:nth-child(odd)
                     td
                         background: #F2F2F2
+        td
+            overflow: scroll
