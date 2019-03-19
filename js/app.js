@@ -144,3 +144,16 @@ $(document).ready(function(){
 
     document.getElementById('referrer').value = lastURL;
 });
+
+// Update Table Heights On Mobile
+if ($(window).width() < 1024) {
+    //small screen, load other JS files
+    
+    // var maxHeight = 0;
+
+    // $("").each(function () {
+    //     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+    // });
+
+    // $("div").height(maxHeight);
+}
