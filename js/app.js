@@ -59,24 +59,23 @@ $('window').ready(function () {
 });
 
 // Home Hero Interaction Effects
-$('.left-image-hover').mouseenter(function () {
-    $('#left-img').addClass('zoom')
-    $('#right-img').addClass('inactive')
-})
-$('.left-image-hover').mouseleave(function () {
-    $('#left-img').removeClass('zoom')
-    $('#right-img').removeClass('inactive')
-})
 
-$('.right-image-hover').mouseenter(function () {
-    $('#right-img').addClass('zoom')
-    $('#left-img').addClass('inactive')
-})
-$('.right-image-hover').mouseleave(function () {
-    $('#right-img').removeClass('zoom')
-    $('#left-img').removeClass('inactive')
-})
+$('.left-image-hover')
+.mouseenter(function(){addClasses('left', 'right')})
+.mouseleave(function(){removeClasses('left', 'right')});
 
+$('.right-image-hover')
+.mouseenter(function () {addClasses('right', 'left')})
+.mouseleave(function () {removeClasses('right', 'left')});
+
+var addClasses = (first, second) => {
+    $(`#${first}-img`).addClass('zoom')
+    $(`#${second}-img`).addClass('inactive')
+}
+var removeClasses = (first, second) => {
+    $(`#${first}-img`).removeClass('zoom')
+    $(`#${second}-img`).removeClass('inactive')
+}
 
 // Side Bar JS
 updateActiveHeight();
@@ -145,15 +144,8 @@ $(document).ready(function(){
     document.getElementById('referrer').value = lastURL;
 });
 
-// Update Table Heights On Mobile
-if ($(window).width() < 1024) {
-    //small screen, load other JS files
-    
-    // var maxHeight = 0;
-
-    // $("").each(function () {
-    //     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
-    // });
-
-    // $("div").height(maxHeight);
+// Table Toggler
+$('.table-toggler-header').click(function () { toggleTableToggler($(this).find("i")) })
+var toggleTableToggler = thisI => {
+    $(thisI).toggleClass('flipped')
 }

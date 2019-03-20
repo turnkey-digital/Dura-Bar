@@ -14,7 +14,27 @@
                 color: rgba(255,255,255,.5)
     
     //table
+    table.mobile-collapsed
+        max-height: 0vh
+        opacity: 0
+        transition: $transition-timing
+    h4.table-toggler-header 
+        position: relative
+        border-bottom: 1px solid #9999997d
+        a
+            position: absolute
+            width: 100%
+            left: 0
+            text-align: right
+            i::before 
+                transform: rotate(91deg)
+                transition: $transition-timing
+            i.flipped::before 
+                transform: rotate(91deg) rotateY(180deg)
     table
+        transition: $transition-timing
+        opacity: 1
+        max-height: 500vh
         display: flex
         thead
             border: 0
