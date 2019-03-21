@@ -17,20 +17,22 @@
     table.mobile-collapsed
         max-height: 0vh
         opacity: 0
+        user-select: none
         transition: $transition-timing
-    h4.table-toggler-header 
-        position: relative
-        border-bottom: 1px solid #9999997d
-        a
-            position: absolute
-            width: 100%
-            left: 0
-            text-align: right
-            i::before 
-                transform: rotate(91deg)
-                transition: $transition-timing
-            i.flipped::before 
-                transform: rotate(91deg) rotateY(180deg)
+        tr
+            max-height: 0
+            th
+                max-height: 0
+                padding: 0
+            td
+                max-height: 0
+                padding: 0
+    i.fi-play.large:before
+        transform: rotate(91deg)
+        margin-left: 1rem
+        transition: $transition-timing
+    i.fi-play.large.flipped:before 
+        transform: rotate(91deg) rotateY(180deg)
     table
         transition: $transition-timing
         opacity: 1

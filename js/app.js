@@ -147,5 +147,6 @@ $(document).ready(function(){
 // Table Toggler
 $('.table-toggler-header').click(function () { toggleTableToggler($(this).find("i")) })
 var toggleTableToggler = thisI => {
+    event.preventDefault();
     $(thisI).toggleClass('flipped')
 }
