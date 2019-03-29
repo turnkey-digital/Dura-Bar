@@ -24,7 +24,6 @@ $hover-opacity: .5
   transition: $transition-timing
   &:hover
     background-color: $secondary-color
-
   // Table
 td 
   border: 2px solid white !important
@@ -47,9 +46,13 @@ legend
   font-size: 1.1rem
   padding-left: 1.75rem
 fieldset
-    &>:nth-child(2)
-      &>label
-        font-weight: bold
+  &>span
+    display: block
+    label
+      display: flex
+  &>:nth-child(2)
+    &>label
+      font-weight: bold
 
 // Global Interactions
 a
@@ -64,6 +67,10 @@ a
   &:hover
     border-bottom: 1px solid $black
 
+    // iFrames
+iframe
+  height: 100%
+  min-height: 50%
   
 // Additional classes
 .hidden
@@ -74,7 +81,7 @@ a
 .link-unset
   color: unset
 
-  // Type
+  // Copy
 .more-about-link
   font-style: italic
   text-decoration: underline
@@ -92,3 +99,5 @@ a
   padding-bottom: 0 !important
 .remove-padding-top
   padding-top: 0 !important
+.cell.row
+  z-index: 1

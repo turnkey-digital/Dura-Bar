@@ -1,0 +1,523 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dura-Bar | Metal Services</title>
+  <meta name="description"
+    content="Dura-Bar Metal Services is a distributor of Dura-Bar continuous cast iron bronze alloys.">
+  <link rel="canonical" href="https://www.dura-bar.com/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dura-Bar | Metal Services" />
+  <meta property="og:description"
+    content="Dura-Bar Metal Services is a distributor of Dura-Bar continuous cast iron bronze alloys." />
+  <meta property="og:image" content="../../../images/home/nearest-location.jpg" />
+  <meta property="og:url" content="https://www.dura-barms.com/" />
+  <meta property="og:site_name" content="Dura-Bar | Metal Services" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dura-Bar | Metal Services" />
+  <script type='application/ld+json'>
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.dura-barms.com/#website",
+      "url": "https://www.dura-barms.com/",
+      "name": "Dura-Bar | Metal Services",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "",
+        "query-input": ""
+      }
+    }
+  </script>
+  <!-- Read for information on Paramaters for the potentialAction --- https://schema.org/docs/actions.html -->
+  <script type='application/ld+json'>
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://www.dura-bar.com/",
+      "sameAs": ["https://www.facebook.com/Dura.BarWoodstock/"],
+      "sameAs": ["https://www.linkedin.com/company/dura-bar/"],
+      "sameAs": ["https://twitter.com/DuraBar"],
+      "sameAs": ["https://www.youtube.com/channel/UCVnkB94o_rU7ZffG5vgYw_g"],
+      "@id": "https://www.dura-bar.com/#organization",
+      "name": "Dura-Bar",
+      "logo": "https://www.dura-bar.com/images/template-db-2016/logo.jpg"
+    }
+  </script>
+
+
+  <!-- Assets -->
+  <link rel="shortcut icon" type="image/png" href="../../../images/favi.png" />
+  <link rel="stylesheet" href="../../../css/app.css">
+</head>
+
+<body>
+  <!-- START OF HEADER -->
+  <div class="grid-container">
+    <!-- start of top bar -->
+    <div class="top-bar">
+
+      <!-- start of left-half -->
+      <div class="top-bar-left">
+        <!-- Logo -->
+        <a href="../../../">
+          <img class="logo" src="../../../images/logo.png" alt="Dura-Bar Metal Services Logo">
+        </a>
+
+        <!-- Start of mobile search -->
+        <!-- search toggle -->
+        <div class="search-button hide-for-medium" type="button" data-toggle="search-bar-mobile">
+          <span class="search-button-box">
+            <span class="search-button-toggle"><i class="fi-magnifying-glass"></i></span>
+          </span>
+        </div>
+        <!-- Mobile Search -->
+        <div class="search-bar-conatiner">
+          <div id="search-bar-mobile" class="hiding">
+            <input class="input-group-field" type="text" placeholder="Search">
+            <input type="submit" class="button" value="">
+          </div>
+        </div>
+        <!-- End of mobile seach -->
+      </div>
+      <!-- end of left half -->
+
+      <!-- start of right half -->
+      <div class="top-bar-right">
+
+        <!-- medium & up -->
+        <div class="grid-y hide-for-small-only">
+          <!-- top section -->
+          <div class="cell small-3">
+            <ul class="menu align-right simple">
+              <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
+              <li><span>|</span></li>
+              <li><a href="#">Contact Info</a></li>
+              <li><span>|</span></li>
+              <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+            </ul>
+          </div>
+          <!-- middle section -->
+          <div class="cell small-3 grid-padding-y">
+            <form>
+              <label for="search" class="hidden">Input Label
+              </label>
+              <input id="search" type="text" placeholder="">
+              <input type="submit" class="button expanded hollow" value="Search">
+            </form>
+          </div>
+          <!-- bottom section -->
+          <div class="cell small-6">
+            <ul class="menu align-right simple main-nav">
+              <li class="current-page"><a href="../../../products.html">PRODUCTS</a></li>
+              <li><a href="../../../services.html">SERVICES</a></li>
+              <li><a href="../../../locations.html">LOCATIONS</a></li>
+              <li><a href="../../../industries.html">INDUSTRIES</a></li>
+              <li><a href="../../../resources.html">RESOURCES</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of medium -->
+
+      </div>
+      <!-- end of right half -->
+
+    </div>
+    <!-- end of top bar -->
+
+    <!-- start of mobile -->
+    <div class="hide-for-medium text-right">
+
+      <!-- hamburger toggle -->
+      <div class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </div>
+
+      <!-- start of mobile navigation -->
+      <div id="mobile-nav" class="mobile-nav-hidden text-left">
+        <!-- Mobile Menu Container -->
+        <ul class="vertical menu" data-responsive-menu="drilldown">
+          <!-- 00 Products -->
+          <li><a href="#">Products</a>
+            <ul class="vertical menu">
+              <!-- 01 Products -->
+              <li><a href="./products.html">Products</a></li>
+              <!-- 01 Dura-Bar -->
+              <li><a href="./products/dura-bar.html">Dura-Bar</a>
+                <ul class="vertical menu">
+                  <!-- 02 Dura-Bar -->
+                  <li><a href="./products/dura-bar.html">Dura-Bar</a></li>
+                  <!-- 02 Ductile Iron -->
+                  <li><a href="./products/dura-bar/ductile-iron.html">Ductile Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Ductile Iron -->
+                      <li><a href="../../../products/dura-bar/ductile-iron.html">Ductile Iron</a></li>
+                      <!-- 03 65-45-12 -->
+                      <li><a href="../../../products/dura-bar/ductile-iron/65-45-12.html">65-45-12</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">65-45-12X</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">80-55-06</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">80-55-06X</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">60-40-18 <span class="dotDot">•</span></a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">100-70-03 <span class="dotDot">•</span></a></li>
+                      <!-- 03 Call Out Inforrmation -->
+                      <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact
+                        your Dura-Bar MS Representative</li>
+                    </ul>
+                  </li>
+                  <!-- 02 Gray Iron -->
+                  <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Gray Iron -->
+                      <li><a href="./products/dura-bar/gray-iron.html">Gray Iron</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="../../../products/dura-bar/gray-iron/g2.html">G2</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2P</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2S</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G2A <span class="dotDot">•</span></a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">G1A <span class="dotDot">•</span></a></li>
+                      <!-- 03 Call Our Informatino -->
+                      <li class="mobile-menu-call-out"> <span class="dotDot">•</span> For Non-Stock Grades - Contact
+                        your Dura-Bar MS Representative</li>
+                    </ul>
+                  </li>
+                  <!-- 02 Ni-Resist -->
+                  <li><a href="./products/dura-bar/ni-resist.html">Ni-Resist Iron</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Ni-Resist -->
+                      <li><a>Ni-Resist</a></li>
+                      <!-- 03 Product Name -->
+                      <li><a href="#">201 Type 1</a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Zero Defect -->
+                  <li><a href="./products/dura-bar/zero-defect-guarantee.html">Zero Defect Guarantee</a></li>
+                  <!-- 02 Advantages -->
+                  <li><a href="./products/dura-bar/dura-bar-advantages.html">Dura-Bar Advantages</a></li>
+                </ul>
+              </li>
+              <!-- 01 Bronze -->
+              <li><a href="#">Bronze</a>
+                <ul class="vertical menu">
+                  <!-- 02 Bronze -->
+                  <li><a href="#">Bronze</a></li>
+                  <!-- 02 Wrought -->
+                  <li><a href="#">Wrought</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Wrought -->
+                      <li><a href="#">Wrought</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C31400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C51000 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C54400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">AMS 4590 C63020</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C64200 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C67300 </a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Continuous Cast Bronze -->
+                  <li><a href="#">Continuous Cast Bronze</a>
+                    <ul class="vertical menu">
+                      <!-- 03 Continuous Cast Bronze -->
+                      <li><a href="#">Continuous Cast Bronze</a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C86300 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C89835 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C90300 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95400 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95500 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">AMS 4880 C95510 </a></li>
+                      <!-- 03 Product Title -->
+                      <li><a href="#">C95900 </a></li>
+                    </ul>
+                  </li>
+                  <!-- 02 Bronze Advantages -->
+                  <li><a href="#">Bronze Advantages</a>
+                  </li>
+                </ul>
+                <!-- END OF BRONZE -->
+              </li>
+            </ul>
+            <!-- END OF PRODUCTS -->
+          </li>
+          <!-- 00 Services -->
+          <li><a href="../../../services.html">Services</a>
+            <ul class="vertical menu">
+              <!-- 01 Services -->
+              <li><a href="../../../services.html">Services</a></li>
+              <!-- 01 Metal Cutting -->
+              <li><a href="#">Metal Cutting</a></li>
+              <!-- 01 Drilling -->
+              <li><a href="#">Drilling and Turning</a></li>
+              <!-- 01 Milling -->
+              <li><a href="#">Milling</a></li>
+              <!-- 01 Trepanning -->
+              <li><a href="#">Trepanning</a></li>
+            </ul>
+            <!-- END OF SERVICES -->
+          </li>
+          <!-- 00 Locations -->
+          <li><a href="../../../locations.html">Locations</a></li>
+          <!-- 00 Industries -->
+          <li><a href="#">Industries</a></li>
+          <!-- 00 Resources -->
+          <li><a href="../../../resources.html">Resources</a>
+            <ul class="vertical menu">
+              <!-- 01 Resources -->
+              <li><a href="../../../resources.html">Resources</a></li>
+              <!-- 01 Resource Guides -->
+              <li><a href="#">Resource Guides</a></li>
+              <!-- 01 Size Schedules -->
+              <li><a href="#">Size Schedules</a></li>
+              <!-- 01 SDS -->
+              <li><a href="#">SDS</a></li>
+              <!-- 01 Additional Resources -->
+              <li><a href="#">Additional Resources</a></li>
+            </ul>
+            <!-- END OF RESOURCES -->
+          </li>
+          <!-- 00 About Us -->
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <!-- end of mobile navigation -->
+
+    </div>
+
+    <!-- mobile cta bar -->
+    <div class="hide-for-medium mobile-bottom-bar">
+      <ul class="menu align-center simple">
+        <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
+        <li><span>|</span></li>
+        <li><a href="#">Contact Info</a></li>
+        <li><span>|</span></li>
+        <li><a href="tel:+1-888-387-2227" class="header-phone-number">888.387.2227</a></li>
+      </ul>
+    </div>
+    <!-- end of mobile -->
+  </div>
+  <!-- END OF HEADER -->
+
+  <!-- START OF PAGE SEPPERATOR -->
+  <div class="grid-container hide-for-small-only full">
+    <img src="../images/sub-page-haeder.png" alt="">
+  </div>
+  <!-- END OF PAGE SEPPERATOR -->
+
+  <!-- START OF BREAD CRUMBS -->
+  <div class="grid-container hide-for-small-only">
+    <nav role="navigation" class="bread-crumbs menu simple">
+      <ol itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Breadcrumb Navigation">
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="./index.html">
+            <span itemprop="name">Home</span>
+          </a>
+          <span class="delimiter">:</span>
+          <meta itemprop="position" content="1">
+        </li>
+        <li class="current-page" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="../products.html">
+            <span itemprop="name">Products</span>
+          </a>
+          <meta itemprop="position" content="2">
+        </li>
+      </ol>
+    </nav>
+
+
+  </div>
+  <!-- END OF BREAD CRUMBS -->
+
+  <!-- START OF BODY -->
+  <div class="grid-container row">
+    <div class="grid-x grid-margin-x grid-padding-x">
+      <!-- Page Title -->
+      <div class="cell">
+        <h1>Page Title</h1>
+        <hr class="hide-for-small-only">
+      </div>
+      <!-- START OF MAIN CONTENT -->
+      <div class="cell medium-9">
+        <!-- interaction Paragraph -->
+        <br class="hide-for-medium">
+        <h3>Sub Head</h3>
+        <p>Paragraph</p>
+      </div>
+      <!-- END OF MAIN CONTENT -->
+
+      <!-- START OF SIDEBAR -->
+      <div class="cell medium-3 grid-padding-y side-bar">
+        <br class="hide-for-medium">
+        <ul class="side-bar-menu">
+          <li><a href="#">
+              <h6>Sub Menu Title</h6>
+            </a>
+          </li>
+          <li class="side-bar-sub-menu">
+            <div class="titleSelector">
+              <span class="close-menu" menu="1"><img src="../../../images/global/side-bar-x.png"
+                  alt="A open close 'X' toggle" class="side-bar-x "></span>
+              <a href="#" class="title">Category Title</a>
+            </div>
+            <div class="menu-holder">
+              <ul class="menu-1 ">
+                <li><a href="#">List Item</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Call out message -->
+        <p class="side-bar-call-out">
+          Call out information
+        </p>
+        <!-- Request a quote -->
+        <a href="../../../request-a-quote.html" class="button secondary expanded">Request a quote</a>
+        <!-- END OF SIDEBAR -->
+      </div>
+      
+    </div>
+      <!-- page break -->
+    <div class="cell row">
+      <hr />
+    </div>
+
+    <!-- START OF FOOTER -->
+    
+    <!-- footer CTA & mobile nav -->
+    <div class="cell grid-x text-center">
+      <h3>Call us today to discuss your application at <a href="tel:+1-888-387-2227">888-DURA-BAR (888.387.2227)</a> or click to complete our quote form.</h3>
+      <div class="cell">
+        <a href="../request-a-quote.html" class="button secondary">Request a quote</a>
+      </div>
+      <!-- end of footer CTA -->
+
+      <!-- start of mobile nav -->
+      <div class="cell row hide-for-medium">
+        <hr />
+        <!-- main navigation -->
+        <ul class="menu align-center mobile-footer-menu">
+          <li>
+            <!-- link -->
+            <a href="" class="mobile-footer-menu-item"><p>Privacy</p></a>
+          </li>
+          <li>
+            <!-- pip -->
+            <a href="" class="mobile-footer-menu-item"><p><span class="pipe-before-mobile-footer-nav">|</span>Careers</p></a>
+          </li>
+          <li>
+            <!-- link -->
+            <a href="" class="mobile-footer-menu-item"><p><span class="pipe-before-mobile-footer-nav">|</span>Terms</p></a>
+          </li>
+          <li>
+            <!-- pip -->
+            <a href="" class="mobile-footer-menu-item"><p><span class="pipe-before-mobile-footer-nav">|</span>Ethics & Values</p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end of footer CTA & mobile nav-->
+
+  </div>
+  <!-- END OF HOME CTA -->
+
+  <!-- start of desktop footer -->
+  <div class="grid-container footer full primary">
+    <div class="grid-container hide-for-small-only">
+      <div class="grid-x grid-margin-x holder">
+        <div class="cell medium-3">
+          <strong>Dura-Bar Metal Services</strong>
+          <br>
+          <a href="https://goo.gl/maps/M9Jo94j6qzv" target="blank" rel=”nofollow”>2195 W Lake Shore Drive<br>
+            Woodstock, Illinois 60098</a>
+          <hr style="max-width:12rem; margin-left:0">
+          <a href="tel:+1-888-387-2227">888.387.2227</a><br>
+          <a href="mailto:info@dura-barms.com">info@dura-barms.com</a>
+        </div>
+        <div class="cell medium-3 large-2">
+          <ul class="menu vertical">
+            <li><a href="../../../products.html">Products</a></li>
+            <li><a href="../../../services.html">Services</a></li>
+            <li><a href="../../../locations.html">Locations</a></li>
+            <li><a href="#">Industries</a></li>
+            <li><a href="../../../resources.html">Resources</a></li>
+            <li><a href="../../../request-a-quote.html">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div class="cell medium-3 large-2">
+          <ul class="menu vertical">
+            <li><a href="../../../about-us.html">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Careers Teams</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Ethics & Values</a></li>
+          </ul>
+        </div>
+        <div class="cell auto hide-for-medium-only"></div>
+        <div class="cell medium-3 grid-y">
+          <div class="cell small-3 text-right">
+            <a href="../../../">
+              <img class="footer-logo" src="../../../images/footerLogo.png" alt="">
+            </a>
+          </div>
+          <div class="cell auto"></div>
+          <div class="cell large-3">
+            <p class="text-right">© 2019 Dura-Bar Metal Services <br class="hide-for-medium-only">All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Footer -->
+    <div class="grid-x hide-for-medium text-center row">
+      <div class="cell ">
+        <p>
+          <strong>Dura-Bar Metal Services</strong><br>
+          <a href="https://goo.gl/maps/M9Jo94j6qzv" target="blank" rel=”nofollow”>
+            2195 W Lake Shore Drive<br>
+            Woodstock, Illinois 60098
+          </a>
+        </p>
+      </div>
+      <div class="cell ">
+        <p>
+          <a href="tel:+1-888-387-2227">888.387.2227</a><br>
+          <a href="mailto:info@durabar-ms.com">info@durabar-ms.com</a>
+        </p>
+      </div>
+      <div class="cell ">
+        <p>© 2019 Dura-Bar Metal Services. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+  <!-- END OF FOOTER -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/what-input/dist/what-input.js"></script>
+  <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
