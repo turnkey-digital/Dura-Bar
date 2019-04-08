@@ -17,7 +17,7 @@
     <meta property="og:image" content="../../../images/home/nearest-location.jpg" />
     <meta property="og:url" content="https://www.dura-barms.com/" />
     <meta property="og:site_name" content="Dura-Bar | Metal Services" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="../../../images/logo.png" />
     <meta name="twitter:title" content="Dura-Bar | Metal Services" />
     <script type='application/ld+json'>
         {
@@ -33,7 +33,16 @@
             }
         }
     </script>
-    <!-- Read for information on Paramaters for the potentialAction --- https://schema.org/docs/actions.html -->
+    <!-- Read for information on potentialAction at https://schema.org/docs/actions.html 
+
+      WordPress's SearchAction look like
+       "potentialAction": {
+         "@type" : "SearchAction",
+         "target" : "https://turnkeydigital.com/?s={search_term_string}",
+         "query-input" : "required name=search_term_string"
+        }
+       }
+    -->
     <script type='application/ld+json'>
         {
             "@context": "https://schema.org",

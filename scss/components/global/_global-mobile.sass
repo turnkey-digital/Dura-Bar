@@ -7,6 +7,9 @@
         line-height: 1.2
     .logo
         width: 50vw !important
+    .grid-y
+        .cell
+            width: 100%
     
     // footer
     .footer
@@ -75,3 +78,10 @@
                         background: #F2F2F2
         td
             overflow: scroll
+
+@media only screen and (max-width: 786px) and (min-width: 400px)  
+    .grid-y
+        .cell
+            width: 100%
+    body > .grid-container
+        margin-top: 1rem

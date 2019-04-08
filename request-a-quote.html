@@ -17,7 +17,7 @@
     <meta property="og:image" content="../../../images/home/nearest-location.jpg" />
     <meta property="og:url" content="https://www.dura-barms.com/" />
     <meta property="og:site_name" content="Dura-Bar | Metal Services" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="../../../images/logo.png" />
     <meta name="twitter:title" content="Dura-Bar | Metal Services" />
     <script type='application/ld+json'>
         {
@@ -33,7 +33,16 @@
             }
         }
     </script>
-    <!-- Read for information on Paramaters for the potentialAction --- https://schema.org/docs/actions.html -->
+    <!-- Read for information on potentialAction at https://schema.org/docs/actions.html 
+
+      WordPress's SearchAction look like
+       "potentialAction": {
+         "@type" : "SearchAction",
+         "target" : "https://turnkeydigital.com/?s={search_term_string}",
+         "query-input" : "required name=search_term_string"
+        }
+       }
+    -->
     <script type='application/ld+json'>
         {
             "@context": "https://schema.org",
@@ -366,16 +375,16 @@
                 <br class="hide-for-medium">
             </div>
             <!-- START OF MAIN CONTENT -->
-            <div class="cell grid-container medium-9 grid-x grid-padding-y">
+            <div class="cell grid-container medium-8 large-9 grid-x grid-padding-y">
                 <!-- interaction Paragraph -->
                 <form class="cell">
                         <div class="grid-x grid-padding-x">
-                            <div class="medium-6 cell">
+                            <div class="large-6 cell">
                                 <label>
                                 <input type="text" placeholder="First Name*">
                                 </label>
                             </div>
-                            <div class="medium-6 cell">
+                            <div class=" large-6 cell">
                                 <label>
                                     <input type="text" placeholder="Last Name*">
                                 </label>
@@ -390,17 +399,17 @@
                                     <input type="text" placeholder="Address*">
                                 </label>
                             </div>
-                            <div class="cell medium-6">
+                            <div class="cell  large-6">
                                 <label>
                                     <input type="text" placeholder="City">
                                 </label>
                             </div>
-                            <div class="cell medium-2">
+                            <div class="cell large-2">
                                 <label>
                                     <input type="text" placeholder="State*">
                                 </label>
                             </div>
-                            <div class="cell medium-4">
+                            <div class="cell large-4">
                                 <label>
                                     <input type="text" placeholder="Zip/Postal Code*">
                                 </label>
@@ -425,7 +434,7 @@
                                 <br>
                                 <h4>Select Specific Products of Interest</h4>
                             </div>
-                            <div class="cell medium-6 grid-x">
+                            <div class="cell  large-6 grid-x">
                                 <!-- Dura-Bar -->
                                 <fieldset class=" cell grid-y small-6 medium-4">
                                     <legend>Dura-Bar</legend>
@@ -508,7 +517,7 @@
                                 </fieldset>
                             </div>
                             <!-- Bronze -->
-                            <div class="cell medium-6 grid-x">
+                            <div class="cell  large-6 grid-x">
                                     
                                 <!-- Continuous Cast -->
                                 <fieldset class=" cell grid-y small-6">
@@ -597,7 +606,7 @@
             <!-- END OF MAIN CONTENT -->
 
             <!-- START OF SIDEBAR -->
-            <div class="cell  medium-3 grid-padding-y side-bar hide-for-small-only" >
+            <div class="cell  medium-4 large-3 grid-padding-y side-bar hide-for-small-only">
                 <img src="../images/request-a-quote-alert.png" alt="">
                 <div class="cell requat-a-quote-alert">
                     <h6>For Immediate Assistance,

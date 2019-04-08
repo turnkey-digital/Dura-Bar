@@ -17,7 +17,7 @@
     <meta property="og:image" content="../../../images/home/nearest-location.jpg" />
     <meta property="og:url" content="https://www.dura-barms.com/" />
     <meta property="og:site_name" content="Dura-Bar | Metal Services" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="../../../images/logo.png" />
     <meta name="twitter:title" content="Dura-Bar | Metal Services" />
     <script type='application/ld+json'>
         {
@@ -33,7 +33,16 @@
             }
         }
     </script>
-    <!-- Read for information on Paramaters for the potentialAction --- https://schema.org/docs/actions.html -->
+    <!-- Read for information on potentialAction at https://schema.org/docs/actions.html 
+
+      WordPress's SearchAction look like
+       "potentialAction": {
+         "@type" : "SearchAction",
+         "target" : "https://turnkeydigital.com/?s={search_term_string}",
+         "query-input" : "required name=search_term_string"
+        }
+       }
+    -->
     <script type='application/ld+json'>
         {
             "@context": "https://schema.org",
@@ -368,7 +377,7 @@
         </div>
             <!-- Top Content -->
             <!-- Left Section -->
-            <div class="cell medium-9">
+            <div class="cell medium-8 large-9">
                 <p>Dura-Bar Metal Services offers a wide range of services with one goal in mind:
                 to provide the right material at the right time, helping customers save time and money.</p>
                 <p>In addition to providing high-quality Dura-Bar continuous cast iron and bronze alloys, Dura-Bar Metal Services also
@@ -381,7 +390,7 @@
                 <br class="hide-for-medium">
             </div>
             <!-- Right Section -->
-            <div class="cell  medium-3">
+            <div class="cell  medium-4 large-3">
                 <a href="../locations.html">
                     <div class="call-out zoom-out text-left">
                         <img src="../images/services/service-call-out.jpg" alt="" class="product-image zoom-out" id="title-">
