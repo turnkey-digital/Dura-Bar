@@ -130,7 +130,7 @@ function checkCountry(lat, lon, bool) {
             return response.json()
         })
         .then(data => {
-            (data.countryCode == 'US' ? bool = !bool : console.log('swine!'));
+            (data.countryCode == 'US' ? bool = !bool : null);
             (bool ? console.log('You have either denied the browser permissions to access your location. Or you are outside of the United States of America') : inUSA(lat, lon));
         })
         .catch(err => {
