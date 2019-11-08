@@ -3,6 +3,7 @@
   background-size: cover
   background-position: center
   padding: 3rem 0
+  position: relative
   strong, a, p
     color: $white
   .header
@@ -12,3 +13,31 @@
   color: $white
   background: #455560
   padding: 2rem 0
+.homePageLazyLoader 
+  background: #f9f9f9
+  position: absolute
+  z-index: 999
+  width: 100%
+  height: 100%
+  top: 0
+  align-items: center
+  display: flex
+  text-align: center
+  justify-content: center
+  flex-direction: column
+  color: #455560
+  overflow: hidden
+  transition: 500ms
+  .gif
+    opacity: .1
+    img
+      user-select: none
+  h5
+    position: absolute
+    font-size: 2em
+    span
+      font-weight: 400
+      font-size: .75em
+.homePageLazyLoader.hidden 
+  opacity: 0
+  visibility: hidden

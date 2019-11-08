@@ -541,6 +541,12 @@
   </div>
   <!-- Nearest Location | Content - Desktop  -->
   <div class="hide-for-small-only full nearest-location row">
+    <div class="homePageLazyLoader">
+      <div class="gif">
+        <img src="../../../images/home/plats.gif" alt="">
+      </div>
+      <h5>Searching for your nearest Dura-Bar Metal Services location. <br><span>Thank you for your patience.</span></h5>
+    </div>
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
         <!-- Left Half -->
@@ -549,18 +555,21 @@
           <div class="cell">
             <strong>Dura-Bar Metal Services</strong>
             <br>
-            <a href="https://goo.gl/maps/M9Jo94j6qzv" target="blank" rel=”nofollow”>2195 W Lake Shore Drive<br>
-              Woodstock, Illinois 60098</a>
+            <a id="gmURL" href="https://goo.gl/maps/M9Jo94j6qzv" target="blank" rel=”nofollow”>
+              <span id="address1">2195 West Lake Shore Drive</span>
+              <br>
+              <span id="address2">Woodstock, Illinois 60098</span>
+            </a>
             <br>
-            <a href="tel:+1-888-387-2227">Phone: 888-DURA-BAR</a>
+            <a id="phoneURL" href="tel:+1-888-387-2227">Phone: <span id="phone">888-DURA-BAR</span></a>
             <br>
-            <p>Fax: 815-338-4608</p>
+            <p>Fax: <span id="fax">815-338-4608</span></p>
             <hr>
           </div>
           <!-- About This location -->
             <div class="cell">
               <strong><i>About This Location</i></strong>
-              <p>Conveniently located 50 miles northwest of Chicago, this location carries a large inventory of
+              <p id="desc">Conveniently located 50 miles northwest of Chicago, this location carries a large inventory of
                 Dura-Bar and Bronze material in rounds, rectangles, squares and tubes available for as soon as same day
                 shipment. Services include cutting, drilling, milling and turning.</p>
             </div>
